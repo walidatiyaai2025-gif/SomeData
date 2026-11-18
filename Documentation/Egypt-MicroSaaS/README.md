@@ -1,14 +1,16 @@
-# Egypt Micro-SaaS Investment Research v0.4
-ابدأ: [WalidStudy](../../WalidStudy) · [ترتيب كل الـ42 فكرة](./Current-Ranking.md) · [ملف درجات الأفكار](./Idea-Registry.json) · [تاريخ القرارات](./Study-Change-Log.md).
+# Egypt + Arab markets | Micro-SaaS Study v0.5
+**ابدأ:** [WalidStudy](../../WalidStudy) · [Current-Ranking](./Current-Ranking.md) · [Idea-Registry](./Idea-Registry.json) · [Study Change Log](./Study-Change-Log.md).
 
-**أهم شرط جديد:** يجب اختبار وظيفة المشروع كاملة بلا ملفات أو حسابات عميل حقيقي. **اختبار المنتج ≠ نجاح الاستثمار**؛ لا يوجد مشروع مثبت 9/10. قائمة تنفيذ مستقلة عن ترتيب درجات الفرصة.
+**قاعدة v0.5:** المستخدم يعيش خارج مصر؛ يجب سهولة التسويق/البيع/الدعم عن بعد، واختبار صحة الوظيفة ببيانات مصطنعة أو مصادر عامة **دون عملاء**، والتوسع العربي تدريجياً، مع دمج ميزات تخدم نفس العميل فقط. **التقييم السوقي التاريخي لا يساوي `owner_fit_v05`**، وكل التقديرات بلا نتائج بيع حقيقية.
 
-**الجولة الرابعة:** [بحث حلول قابلة للتحقق المستقل](./Independent-Verification-Research-2026-11-18-v0.4.md) · [المصادر](./Evidence-Round4-2026-11-18.md) · [ترتيب v0.4 المؤرشف](./Idea-Ranking-2026-11-18-v0.4.md).
+**الجديد:** [دراسة التسويق عن بعد والدمجات](./Remote-Arab-Markets-and-Bundles-2026-11-18-v0.5.md) · [مصادر الجولة 5](./Evidence-Round5-2026-11-18.md) · [شروط دخول كل دولة](./Pan-Arab-Launch-Gates-2026-11-18-v0.5.md) · [ترتيب v0.5](./Idea-Ranking-2026-11-18-v0.5.md).
 
-**الجولة الثالثة:** [الفرص](./New-Opportunities-Round3-2026-11-18.md) · [المصادر](./Evidence-Round3-2026-11-18.md) · [اقتصاديات 90 يوم كاملة مجانية](./Free-90-Day-Trial-Economics-2026-11-18-v0.3.md) · [ترتيب v0.3](./Idea-Ranking-2026-11-18-v0.3.md).
+**v0.4:** [الاختبار المستقل](./Independent-Verification-Research-2026-11-18-v0.4.md) · [المصادر](./Evidence-Round4-2026-11-18.md).
 
-**الجولة الثانية:** [الفرص](./New-Opportunities-Deep-Dive-2026-11-18.md) · [المصادر](./Evidence-Round2-2026-11-18.md) · [التسعير](./Pricing-Unit-Economics-2026-11-18-v0.2.md) · [ترتيب v0.2](./Idea-Ranking-2026-11-18-v0.2.md).
+**v0.3:** [أفكار الجيل الثالث](./New-Opportunities-Round3-2026-11-18.md) · [مصادرها](./Evidence-Round3-2026-11-18.md) · [اقتصاديات 90 يوماً](./Free-90-Day-Trial-Economics-2026-11-18-v0.3.md).
 
-**الجولة الأولى:** [الدراسة الأصلية](./Market-Study-2026-11-18.md) · [المصادر](./Evidence-Log-2026-11-18.md) · [خطة التحقق](./Validation-Plan-2026-11-18.md).
+**v0.2:** [الأفكار السابقة](./New-Opportunities-Deep-Dive-2026-11-18.md) · [المصادر](./Evidence-Round2-2026-11-18.md) · [التسعير](./Pricing-Unit-Economics-2026-11-18-v0.2.md).
 
-**الحالة:** بحث مكتبي فحسب؛ اختبار البرمجة والحملات والمبيعات لم يبدأ، ولا يوجد قبول تجاري 9/10.
+**v0.1:** [البداية](./Market-Study-2026-11-18.md) · [مصادرها](./Evidence-Log-2026-11-18.md) · [خطة الفحص الأولى](./Validation-Plan-2026-11-18.md).
+
+**الحالة الحقيقية:** بحث وتحليل فقط؛ لا أدوات برمجية اختُبرت، ولا عملاء مدفوعين، ولا اشتراك SaaS وصل 9/10 بدليل.
