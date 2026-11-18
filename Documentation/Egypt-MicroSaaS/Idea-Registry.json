@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "study_version": "0.2",
+  "study_version": "0.3",
   "last_reviewed": "2026-11-18",
   "source_of_truth": "Documentation/Egypt-MicroSaaS/Idea-Registry.json",
   "rating_kind": "hypothesis screening / not validated ROI",
@@ -22,22 +22,32 @@
   "ranking_rule": "score_current desc, then stable ID asc; unscored archived ideas kept, never assigned fabricated historical ratings",
   "ranked_ids": [
     "EG-008",
+    "EG-027",
     "EG-009",
     "EG-010",
     "EG-001",
     "EG-002",
+    "EG-028",
+    "EG-029",
     "EG-003",
+    "EG-031",
     "EG-011",
+    "EG-030",
     "EG-013",
     "EG-014",
     "EG-015",
     "EG-019",
     "EG-012",
+    "EG-036",
     "EG-016",
     "EG-017",
+    "EG-032",
+    "EG-033",
     "EG-005",
     "EG-007",
     "EG-004",
+    "EG-035",
+    "EG-034",
     "EG-018",
     "EG-006"
   ],
@@ -754,6 +764,363 @@
           "change": "archived previous rejection"
         }
       ]
+    },
+    {
+      "id": "EG-027",
+      "title": "حقك في الشحنة — مساعد مطالبات التلف والفقد",
+      "score_current": 7.9,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 9,
+        "willingness": 8,
+        "competition_gap": 7,
+        "digital_acquisition": 7.5,
+        "mvp_simplicity": 7,
+        "retention": 8
+      },
+      "status": "PRIORITY_TEST",
+      "reason": "Official ShipBlu/Bosta policies require timely reports and photos. Demand/claim frequency unmeasured; never guarantee compensation.",
+      "mvp": "Merchant with >=100 shipments/month (test segment only). Attach tracking, time, photos, policy-specific deadline, claim status, manual export.",
+      "threat": "Carrier portals + Rabehni claims module; undocumented platform differences; no scraping, no direct claim submission initially.",
+      "evidence": [
+        "https://support.shipblu.com/en/a/claims-procedure",
+        "https://bosta.freshdesk.com/en/support/solutions/articles/36000421222-order-issues",
+        "https://rabehni.com/en"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 7.9,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-028",
+      "title": "عقود المكافحة — تقرير زيارة مكافحة الآفات للمطاعم",
+      "score_current": 7.4,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 8.5,
+        "willingness": 8,
+        "competition_gap": 5.5,
+        "digital_acquisition": 6.5,
+        "mvp_simplicity": 6.5,
+        "retention": 9
+      },
+      "status": "WATCH",
+      "reason": "Contracts and repeat pest-control visits exist; direct specialized competition is strong; difference from EG-009 is vertical QR/bait stations and service audit trail.",
+      "mvp": "One-click location/QR device scan, photos and inspection notes, signed customer report, next visit.",
+      "threat": "Fox Systems pest CRM includes QR, routes, reporting; Gulf Infotech Zoho FSM pest control; no claims of official certification.",
+      "evidence": [
+        "https://foxsystemstech.com/solutions/pest-control-crm",
+        "https://gulfinfotech.com/ar/zoho-fsm/pest-control/",
+        "https://www.trulynolen-eg.com/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 7.4,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-029",
+      "title": "كشف المولد — سجل صيانة المولدات الفني",
+      "score_current": 7.4,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 8.5,
+        "willingness": 7.5,
+        "competition_gap": 7,
+        "digital_acquisition": 6,
+        "mvp_simplicity": 6.5,
+        "retention": 8
+      },
+      "status": "WATCH",
+      "reason": "Egyptian generator service contractors publish detailed 80-point maintenance; willingness for standalone digital checklist unknown.",
+      "mvp": "Reading sheet/asset QR, checklist, photos, service history, next due, share report; no automated technical diagnosis.",
+      "threat": "Generic FSM and PDF forms; narrowly limited addressable buyer segment; equipment safety responsibilities.",
+      "evidence": [
+        "https://www.power-badr.com/services/preventive-maintenance",
+        "https://www.proxima-eg.com/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 7.4,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-030",
+      "title": "معايرتك — ملفات صلاحية شهادات معايرة أجهزة المعامل",
+      "score_current": 7.1,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7.5,
+        "competition_gap": 6.5,
+        "digital_acquisition": 5.5,
+        "mvp_simplicity": 6.5,
+        "retention": 8
+      },
+      "status": "WATCH",
+      "reason": "Egyptian accreditation and healthcare laboratory guidance covers instruments/calibration; demand for separate SaaS unknown.",
+      "mvp": "Track instrument, certificate expiry, file and owner with reminders, export; explicitly not a calibration provider/certifier.",
+      "threat": "Calibration management modules; highly sensitive regulated environment; small accessible niche and onboarding burden.",
+      "evidence": [
+        "https://systemapi.egac.gov.eg/public/uploads/documents/piCJfsBHEBqtPKWnV1yeTcYJMY81BJB2xg3sjvUwhepiO6N3yFn3.pdf",
+        "https://gahar.gov.eg/upload/gahar-handbook-for-clinical-laboratories-standards-1.pdf"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 7.1,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-031",
+      "title": "طفايتك — متابعة فحوصات طفايات المنشآت QR",
+      "score_current": 7.2,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 8.5,
+        "willingness": 8,
+        "competition_gap": 5.5,
+        "digital_acquisition": 6,
+        "mvp_simplicity": 6,
+        "retention": 8.5
+      },
+      "status": "WATCH",
+      "reason": "Service maintenance is documented; do not represent application as official safety approval or substitute licensed inspection.",
+      "mvp": "Asset/QR ledger, due dates, documented technician check and photos, service PDF; no compliance pass/fail certification.",
+      "threat": "Fire Extinguisher Pro offers QR/checklists; local fire-protection vendors; legal and physical safety liability.",
+      "evidence": [
+        "https://apps.apple.com/eg/app/fire-extinguisher-pro/id6761208778",
+        "https://go.htcsafety.com/maintenance"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 7.2,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-032",
+      "title": "مستخلصك — مراجعة مستخلصات مقاول باطن صغيرة",
+      "score_current": 6.5,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 9,
+        "willingness": 8,
+        "competition_gap": 3.5,
+        "digital_acquisition": 5.5,
+        "mvp_simplicity": 3.5,
+        "retention": 8
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Contracts, retention and deductions are well defined but sophisticated existing rivals cover the use case.",
+      "mvp": "No MVP until specific high-frequency discrepancy is identified; not full contracting accounting.",
+      "threat": "Buildo, Raqeem, Celvo, ConstructINS; specialized tax/retention complexity and high support.",
+      "evidence": [
+        "https://buildo.solutions/features/subcontractor-certificates/",
+        "https://www.vipraqeem.com/lp/raqeem-contracting.html",
+        "https://constructins.epsilonaiglobal.com/solutions/payment-certificates-software"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 6.5,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-033",
+      "title": "وردية آمنة — سجلات سلامة غذاء المطاعم اليومية",
+      "score_current": 6.4,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 6,
+        "competition_gap": 2.5,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 7,
+        "retention": 9
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Daily operational need documented but direct free multilingual apps exist; food-safety compliance disclaimers essential.",
+      "mvp": "Single kitchen log with timestamp/photo/action and audit pack; not a regulatory license.",
+      "threat": "KitchenTrace supports Arabic and low-cost; Safe Kitchen, HACCPulse; false compliance risk.",
+      "evidence": [
+        "https://apps.apple.com/eg/app/kitchentrace-haccp/id6812258575",
+        "https://apps.apple.com/eg/app/safe-kitchen-food-safety-log/id6816382644",
+        "https://apps.apple.com/eg/app/haccpulse-food-safety-log/id6799008236"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 6.4,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-034",
+      "title": "قبل التحرك — فحص سيارة الأسطول اليومية",
+      "score_current": 6,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 7.5,
+        "willingness": 6,
+        "competition_gap": 2,
+        "digital_acquisition": 6,
+        "mvp_simplicity": 7,
+        "retention": 9
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Daily checklists are real but multiple free international products already cover them; not a proven Egyptian paid niche.",
+      "mvp": "Vehicle checklist, faults, photo, due report; does not claim Egypt legal compliance.",
+      "threat": "DriveCheck, Mekavo Egypt free, FleetFusion; QR/GPS/photo evidence competitors.",
+      "evidence": [
+        "https://mekavo.com/eg/fleet",
+        "https://getdrivecheck.app/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 6,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-035",
+      "title": "مفتاحك — فحص تسليم شقق وتشطيبات",
+      "score_current": 6.1,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7,
+        "competition_gap": 2.5,
+        "digital_acquisition": 6,
+        "mvp_simplicity": 8,
+        "retention": 5
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Snag lists and photo reports are real but free/one-time purchase alternatives weaken monthly subscriptions.",
+      "mvp": "Capture snag by room with photo, contractor and PDF; prefer pay-per-unit over monthly in any future test.",
+      "threat": "SiteProof free offline, DefectPass per-flat, HandoverVault; recurring engagement unclear.",
+      "evidence": [
+        "https://play.google.com/store/apps/details?id=com.auratech.siteproof",
+        "https://apps.apple.com/eg/app/defectpass-snagging-report/id6812666920"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 6.1,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+    },
+    {
+      "id": "EG-036",
+      "title": "عقدك الفني — متابعة عقود صيانة المعدات والضمان",
+      "score_current": 6.6,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.3 analyst desk screening; NOT validated ROI; 90-day trial does not raise score without observations",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7.5,
+        "competition_gap": 3,
+        "digital_acquisition": 6.5,
+        "mvp_simplicity": 7.5,
+        "retention": 8
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "AMC scheduling and warranty tracking are recurring but incumbents already serve similar needs; overlaps EG-003, hence differentiation must be proven.",
+      "mvp": "Contract/asset and visit reminder with renewal status; no dispatch/ERP.",
+      "threat": "Duevo, Wasla Egypt full FSM; generic calendar and EG-003 overlap.",
+      "evidence": [
+        "https://apps.apple.com/eg/app/duevo-amc-warranty-tracker/id6791110033",
+        "https://wasla.fekralabs.com/ar/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.3",
+          "date": "2026-11-18",
+          "score": 6.6,
+          "change": "new desk hypothesis"
+        }
+      ],
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
     }
-  ]
+  ],
+  "trial_offer_proposal": {
+    "days": 90,
+    "full_features": true,
+    "required_card": false,
+    "auto_charge": false,
+    "public_price_from_day_0": true,
+    "after_trial": "explicit opt-in payment; read-only or limited hold, secure export; never delete on expiry",
+    "fair_use": "transparent resource and abuse safeguards, no feature paywall during trial",
+    "state": "PROPOSED_NOT_LAUNCHED",
+    "first_paid_conversion_measurement": "day 91-120",
+    "paid_renewal_followup": "day 121-180",
+    "free_trial_costs": "tracked per user; see v0.3 trial economics"
+  }
 }
