@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "study_version": "0.5",
+  "study_version": "0.6",
   "last_reviewed": "2026-11-18",
   "source_of_truth": "Documentation/Egypt-MicroSaaS/Idea-Registry.json",
   "rating_kind": "hypothesis screening / not validated ROI",
@@ -39,6 +39,7 @@
     "EG-019",
     "EG-037",
     "EG-040",
+    "EG-047",
     "EG-012",
     "EG-036",
     "EG-038",
@@ -49,6 +50,7 @@
     "EG-046",
     "EG-033",
     "EG-039",
+    "EG-048",
     "EG-005",
     "EG-007",
     "EG-043",
@@ -96,6 +98,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -143,6 +149,10 @@
         "provisional_gate_pass": false,
         "reason": "Accountants require trust and handling sensitive docs across country regimes",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -190,6 +200,10 @@
         "provisional_gate_pass": false,
         "reason": "Calendar/Excel substitution; weak need to pay monthly",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -226,6 +240,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -262,6 +280,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -298,6 +320,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -334,6 +360,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -387,6 +417,26 @@
         "provisional_gate_pass": false,
         "reason": "Jumia Egypt platform-dependent and real settlement exports needed",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": 4.7,
+        "dimensions": {
+          "remote_acquisition": 5.4,
+          "independent_test": 3.5,
+          "pan_arab_portability": 3,
+          "channel_defensibility": 3.8,
+          "subscription_unit_fit": 5.3,
+          "recurring_use": 8
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Cannot verify real settlements without seller statements.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 4.7
+          }
+        ]
       }
     },
     {
@@ -440,6 +490,26 @@
         "provisional_gate_pass": false,
         "reason": "FieldProof free and local FSM competitors; tradespeople onboarding may require calls",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": 7.1,
+        "dimensions": {
+          "remote_acquisition": 6.4,
+          "independent_test": 9.3,
+          "pan_arab_portability": 8.5,
+          "channel_defensibility": 3.5,
+          "subscription_unit_fit": 7.5,
+          "recurring_use": 7.5
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Higher pain but technician onboarding and remote sales burden; direct field service competitors.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 7.1
+          }
+        ]
       }
     },
     {
@@ -493,6 +563,10 @@
         "provisional_gate_pass": false,
         "reason": "Workers/supervisors must be trained; B2B operations support high",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -535,6 +609,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -577,6 +655,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -619,6 +701,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -661,6 +747,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -703,6 +793,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -745,6 +839,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -787,6 +885,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -829,6 +931,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -871,6 +977,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -902,6 +1012,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -933,6 +1047,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -964,6 +1082,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -995,6 +1117,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1026,6 +1152,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1057,6 +1187,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1088,6 +1222,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1144,6 +1282,26 @@
         "provisional_gate_pass": false,
         "reason": "Carrier policies differ and real acceptance needs customer claims",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": 5.9,
+        "dimensions": {
+          "remote_acquisition": 6.2,
+          "independent_test": 6.5,
+          "pan_arab_portability": 5.5,
+          "channel_defensibility": 4.3,
+          "subscription_unit_fit": 5.1,
+          "recurring_use": 8
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Real carrier claim acceptance cannot be proven from synthetic cases.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 5.9
+          }
+        ]
       }
     },
     {
@@ -1189,6 +1347,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1233,6 +1395,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1277,6 +1443,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1321,6 +1491,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1366,6 +1540,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1411,6 +1589,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1455,6 +1637,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1499,6 +1685,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1543,6 +1733,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1598,6 +1792,10 @@
         "provisional_gate_pass": false,
         "reason": "ETA-specific rules not pan-Arab, local preflight competitor exists",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1642,6 +1840,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1696,6 +1898,10 @@
         "provisional_gate_pass": true,
         "reason": "Free SEO & website check tools already pervasive",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1750,6 +1956,26 @@
         "provisional_gate_pass": true,
         "reason": "SEO acquisition plausible but free Excel import validators",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": 7,
+        "dimensions": {
+          "remote_acquisition": 8.4,
+          "independent_test": 9.6,
+          "pan_arab_portability": 9.7,
+          "channel_defensibility": 2.3,
+          "subscription_unit_fit": 4.5,
+          "recurring_use": 5
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Easy content SEO distribution but one-time use and free Excel alternatives.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 7
+          }
+        ]
       }
     },
     {
@@ -1794,6 +2020,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1837,6 +2067,10 @@
       "owner_fit_v05": {
         "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
         "score": null
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -1907,6 +2141,26 @@
         "provisional_gate_pass": false,
         "reason": "Service crew onboarding/support and strong Arab-language incumbent offerings",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": 7,
+        "dimensions": {
+          "remote_acquisition": 6.2,
+          "independent_test": 9.2,
+          "pan_arab_portability": 8.8,
+          "channel_defensibility": 3.2,
+          "subscription_unit_fit": 6.5,
+          "recurring_use": 8.5
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Potential recurring use, technical and support scope too wide for early remote self serve.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 7
+          }
+        ]
       }
     },
     {
@@ -1977,6 +2231,26 @@
         "provisional_gate_pass": true,
         "reason": "Zero-login URL demo and organic Arabic SEO/agency distribution; mature competitors",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": 7.5,
+        "dimensions": {
+          "remote_acquisition": 8.6,
+          "independent_test": 9.5,
+          "pan_arab_portability": 9.1,
+          "channel_defensibility": 3,
+          "subscription_unit_fit": 6,
+          "recurring_use": 7.3
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Free Arablyzer broad site QA weakens differentiation, improving ownership needs agency automation.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 7.5
+          }
+        ]
       }
     },
     {
@@ -2046,6 +2320,10 @@
         "provisional_gate_pass": true,
         "reason": "Very easy to market but mostly free one-off tools; bad recurring economics",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      },
+      "owner_fit_v06": {
+        "score": null,
+        "evaluation_status": "NOT_REASSESSED_UNDER_NEW_ECONOMIC_AND_MARKETING_CRITERIA"
       }
     },
     {
@@ -2116,7 +2394,186 @@
       },
       "adjacent_to": [
         "EG-039"
-      ]
+      ],
+      "owner_fit_v06": {
+        "score": 7.5,
+        "dimensions": {
+          "remote_acquisition": 8.4,
+          "independent_test": 9.7,
+          "pan_arab_portability": 9,
+          "channel_defensibility": 3.1,
+          "subscription_unit_fit": 6.5,
+          "recurring_use": 7
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Developers accessible via OSS but key/plural lints free, paid CI attribution uncertain.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 7.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "EG-047",
+      "title": "مراقب إطلاقات المواقع العربية للوكالات — Arabic Agency Release Guard",
+      "score_current": 6.7,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.6 desk screening estimate; not paid market validation",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7.5,
+        "competition_gap": 3,
+        "digital_acquisition": 7.5,
+        "mvp_simplicity": 6.5,
+        "retention": 8.5
+      },
+      "status": "PRIORITY_FOR_COMPETITOR_BENCHMARK_NOT_BUILD",
+      "reason": "Sell recurring regression checks and agency-branded evidence for multiple owned/authorized Arabic sites after every site update; avoids vague single SEO scan.",
+      "mvp": "Free browser URL demo with known RTL/text clipping/mobile/link defects on synthetic pages; agency workspace for approved sites, scheduled release diff screenshot/report and branded PDF; no login/checkout/intrusive crawling; clearly scoped confidence.",
+      "threat": "Arablyzer broad free Arabic audits; MizanRTL and Burhan automated Arabic QA; SEOptimer and MetricSpot have white-label agency audits; pixel-diff tools and Selenium/Playwright. Needs proven accuracy and recurring agency use.",
+      "evidence": [
+        "https://arablyzer.com/tools",
+        "https://mizanrtl.com/",
+        "https://www.useburhan.com/arabic-rtl-testing",
+        "https://www.seoptimer.com/pricing/",
+        "https://metricspot.com/features/white-label-seo-tools/",
+        "https://www.w3.org/International/docs/bp-html-bidi/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.6",
+          "date": "2026-11-18",
+          "score": 6.7,
+          "change": "added after investor-grade competitor, GTM, agency economics review"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.5,
+        "eligibility": "FEASIBLE_SYNTHETIC_TEST_DESIGNED",
+        "reason": "Free browser URL demo with known RTL/text clipping/mobile/link defects on synthetic pages; agency workspace for approved sites, scheduled release diff screenshot/report and branded PDF; no login/checkout/intrusive crawling; clearly scoped confidence.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "target_regions": [
+        "EG",
+        "SA",
+        "AE",
+        "KW",
+        "JO",
+        "MA",
+        "TN"
+      ],
+      "price_hypothesis": "$19/$29/$49 per agency-month test (not approved; subject to willingness-to-pay), 90 days full-feature no mandatory card, transparent resources/caps.",
+      "composition_from": [
+        "EG-044",
+        "EG-046"
+      ],
+      "market_validation_caveat": "A single buyer (web agency handling multiple Arabic sites) must need both Arabic visual regression and translation-quality release evidence; if not, keep EG-046 optional integration rather than scope-expanding bundle.",
+      "owner_fit_v05": {
+        "evaluation_status": "NEW_IN_V06_NOT_BACKFILLED",
+        "score": null
+      },
+      "owner_fit_v06": {
+        "score": 7.7,
+        "dimensions": {
+          "remote_acquisition": 8,
+          "independent_test": 9.5,
+          "pan_arab_portability": 8.5,
+          "channel_defensibility": 4.5,
+          "subscription_unit_fit": 7.5,
+          "recurring_use": 7.5
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Agency recurring reports and multi-site potential higher ARPA, saturated global white-label and Arabic QA competitors.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 7.7
+          }
+        ]
+      }
+    },
+    {
+      "id": "EG-048",
+      "title": "متجرك جاهز؟ — فحص ظهور متجر سلة/زد وتجربة العربية قبل النشر",
+      "score_current": 6.4,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.6 desk screening estimate; not paid market validation",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7.5,
+        "competition_gap": 2.5,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 6,
+        "retention": 7.5
+      },
+      "status": "HOLD_PLATFORM_AND_COMPETITOR_GATE",
+      "reason": "Merchant/agency preflight of publicly available store pages: images, RTL/product SEO fields/links, mobile snapshots; can create synthetic development stores under official developer program without real customer private data.",
+      "mvp": "Own development store + seeded public product records + known defects; URL-only check first, platform partner sandbox later. Never require merchant production credentials for correctness testing.",
+      "threat": "Salla provides free store/SEO analyzer already; Wasfi, RankX, other Salla SEO apps, FulltimeDigi, Sutoua; platform partnership approval and country-specific dependency.",
+      "evidence": [
+        "https://salla.com/tools",
+        "https://apps.salla.sa/",
+        "https://docs.zid.sa/create-first-app",
+        "https://docs.zid.sa/test-your-app",
+        "https://wasfi.app/seo-check",
+        "https://fulltimedigi.com/ar"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.6",
+          "date": "2026-11-18",
+          "score": 6.4,
+          "change": "added after investor-grade competitor, GTM, agency economics review"
+        }
+      ],
+      "independent_verification": {
+        "score": 8.9,
+        "eligibility": "FEASIBLE_SYNTHETIC_TEST_DESIGNED",
+        "reason": "Own development store + seeded public product records + known defects; URL-only check first, platform partner sandbox later. Never require merchant production credentials for correctness testing.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "target_regions": [
+        "SA",
+        "AE",
+        "KW"
+      ],
+      "price_hypothesis": "$5-15 merchant monthly test; never infer market or pan-Arab portability from Salla regional base.",
+      "composition_from": [
+        "EG-044"
+      ],
+      "market_validation_caveat": "Do not build without proving unique defects beyond Salla's own free diagnostics; formal partner approval may be needed for distribution, but developer tests can be done with demo shop.",
+      "owner_fit_v05": {
+        "evaluation_status": "NEW_IN_V06_NOT_BACKFILLED",
+        "score": null
+      },
+      "owner_fit_v06": {
+        "score": 6.4,
+        "dimensions": {
+          "remote_acquisition": 7,
+          "independent_test": 8.9,
+          "pan_arab_portability": 6.2,
+          "channel_defensibility": 2.5,
+          "subscription_unit_fit": 6,
+          "recurring_use": 7
+        },
+        "evaluation_status": "DESK_ESTIMATE_NOT_CUSTOMER_DATA",
+        "reason": "Salla/Zid app ecosystems allow demo stores but platform-owned diagnostics and partner approvals constrain portability.",
+        "history": [
+          {
+            "version": "0.6",
+            "date": "2026-11-18",
+            "score": 6.4
+          }
+        ]
+      }
     }
   ],
   "trial_offer_proposal": {
@@ -2222,5 +2679,104 @@
       "fraud/refund",
       "currency/dialect variants"
     ]
+  },
+  "new_policy_v06": {
+    "intent": "Prioritize a distinctive recurring buyer-specific use case over an easy one-time utility; do not claim that DIY mock testing proves commercial product-market fit.",
+    "top_technical_test": [
+      "EG-047",
+      "EG-044",
+      "EG-046"
+    ],
+    "commercial_first_gate": "Agency buyer who manages >=5 Arabic sites and releases changes at least monthly (hypothesis, not measured).",
+    "secondary": [
+      "EG-009"
+    ],
+    "hold": [
+      "EG-008",
+      "EG-027",
+      "EG-048",
+      "EG-045"
+    ],
+    "conversion_model": "90 days full-feature no-card; first payer cohort cannot be evaluated before day 91; data to >=day 180 for renewals.",
+    "country_scope": "EG/SA/AE/JO/KW as separate markets for evidence; avoid blanket pan-Arab claims.",
+    "hard_rejections": [
+      "Need actual customer data to verify product function",
+      "Requires physical deployment",
+      "No repeat use/no recurring value",
+      "Duplicate of a free alternative without measurable improved outcome",
+      "Payment account/seller eligibility unverified"
+    ]
+  },
+  "owner_fit_v06": {
+    "weights": {
+      "remote_acquisition": 0.25,
+      "independent_test": 0.2,
+      "pan_arab_portability": 0.15,
+      "channel_defensibility": 0.15,
+      "subscription_unit_fit": 0.15,
+      "recurring_use": 0.1
+    },
+    "definition": "NEW analyst fit prioritizes customer acquisition feasibility + recurring agency economics, not a business success probability.",
+    "evaluated_at": "2026-11-18",
+    "status": "DESK_RESEARCH_ONLY",
+    "scored_ids": [
+      "EG-044",
+      "EG-046",
+      "EG-047",
+      "EG-048",
+      "EG-009",
+      "EG-043",
+      "EG-040",
+      "EG-008",
+      "EG-027"
+    ],
+    "hard_gates": "Verifiable without client data; sellable from Kuwait to target countries remotely; demonstrable advantage over free alternatives; payment account eligibility and refund terms actually tested before selling.",
+    "ranked_ids": [
+      "EG-047",
+      "EG-044",
+      "EG-046",
+      "EG-009",
+      "EG-040",
+      "EG-043",
+      "EG-048",
+      "EG-027",
+      "EG-008"
+    ]
+  },
+  "unit_economics_v06": {
+    "source": "https://www.paddle.com/pricing",
+    "transaction_fee": "5% plus USD 0.50 per checkout (provider public rate; eligibility unknown)",
+    "model_status": "ILLUSTRATIVE ASSUMPTIONS NOT OBSERVED",
+    "models": [
+      {
+        "name": "indie_5usd",
+        "price_usd": 5,
+        "fee_usd": 0.75,
+        "acq_cost_per_trial_usd": 2,
+        "free_trial_variable_cost_90_days_usd": 0.75,
+        "variable_cost_month_paid_usd": 0.5,
+        "paid_contribution_usd": 3.75,
+        "free_to_paid_sensitivity": [
+          0.05,
+          0.1,
+          0.2
+        ]
+      },
+      {
+        "name": "agency_29usd",
+        "price_usd": 29,
+        "fee_usd": 1.95,
+        "acq_cost_per_trial_usd": 10,
+        "free_trial_variable_cost_90_days_usd": 4.5,
+        "variable_cost_month_paid_usd": 3,
+        "paid_contribution_usd": 24.05,
+        "free_to_paid_sensitivity": [
+          0.05,
+          0.1,
+          0.2
+        ]
+      }
+    ],
+    "warning": "These hypothetical blended CAC numbers are not benchmark measurements; actual country-level marketing and billing acceptance unknown. 90-day trial means 3 months cash delay."
   }
 }
