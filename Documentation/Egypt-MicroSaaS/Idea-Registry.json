@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "study_version": "0.3",
+  "study_version": "0.4",
   "last_reviewed": "2026-11-18",
   "source_of_truth": "Documentation/Egypt-MicroSaaS/Idea-Registry.json",
   "rating_kind": "hypothesis screening / not validated ROI",
@@ -37,19 +37,25 @@
     "EG-014",
     "EG-015",
     "EG-019",
+    "EG-037",
+    "EG-040",
     "EG-012",
     "EG-036",
+    "EG-038",
     "EG-016",
     "EG-017",
     "EG-032",
     "EG-033",
+    "EG-039",
     "EG-005",
     "EG-007",
     "EG-004",
     "EG-035",
     "EG-034",
     "EG-018",
-    "EG-006"
+    "EG-041",
+    "EG-006",
+    "EG-042"
   ],
   "ideas": [
     {
@@ -76,7 +82,13 @@
           "score": 7.5,
           "change": "retained"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 6.8,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "إثبات توقيت التذكير ممكن بالبيانات المصطنعة، لكن زيادة الزيارات/الأرباح لا تُختبر من غير عملاء.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-002",
@@ -102,7 +114,13 @@
           "score": 7.4,
           "change": "retained"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 8.5,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "قوائم نواقص ورفع وتجميع مستندات صورية تكفي لفحص الوظيفة؛ لا تثبت ساعات توفير فعلية.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-003",
@@ -128,7 +146,13 @@
           "score": 7.3,
           "change": "retained"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 9.3,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "اختبار العقود والتواريخ والتنبيهات بملفات وعقود مصطنعة بالكامل؛ لا تميّز عن Calendar مجاناً.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-004",
@@ -154,7 +178,13 @@
           "score": 6.2,
           "change": "retained"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 7.5,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "اختبار موقعك وGPS ممكن، لكن تحايل الموظفين/تشغيل مواقع مختلفة يتطلب تجارب ميدانية.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-005",
@@ -180,7 +210,13 @@
           "score": 6.3,
           "change": "retained"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 8.2,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "جدول أقساط وقيود مصطنعة يثبت الحسابات، لكن التبني والتحصيل الحقيقيين لا.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-006",
@@ -206,7 +242,13 @@
           "score": 5.8,
           "change": "retained"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 8.8,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "توليد طلاب ومدفوعات وهمية لاختبار سير العمل؛ المنافسة والتبني غير مثبتين.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-007",
@@ -232,7 +274,13 @@
           "score": 6.3,
           "change": "retained"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 7.8,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "حساب أجور القطعة قابل للاختبار بملفات صناعية، لكن سير عمل الورشة غير مثبت.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-008",
@@ -264,7 +312,13 @@
           "score": 8,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 3.5,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "مرفوض حالياً كأول منتج: تحتاج صيغ كشوف جوميا الحقيقية المتنوعة ومطابقتها مع تحويلات لتأكيد الإنتاج؛ البيانات العامة لا تكفي.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-009",
@@ -296,7 +350,13 @@
           "score": 7.8,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 9.3,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "يمكن تسجيل عمل وهمي بصور اختبار وإنشاء تقرير وإقرار/PDF ومقارنة الناتج المتوقع دون عميل؛ التأثير على النزاعات والقيمة القانونية غير مثبت.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-010",
@@ -328,7 +388,13 @@
           "score": 7.6,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 9.3,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "مهام تنظيف وهمية وصور وفحوص قبول وإدارة وردية كاملة قابلة للاختبار داخلياً؛ التزام عامل حقيقي غير مثبت.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-011",
@@ -360,7 +426,13 @@
           "score": 7.1,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 8.8,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "محاضر وفروقات كميات وصور اختبار مادية، تحتاج إثبات احتياج العملاء لا صحة التقرير.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-012",
@@ -392,7 +464,13 @@
           "score": 6.6,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 9.6,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "قائمتا أسعار مؤلفتان بقيم معروفة تتيحان اختبار الفروق بشكل كامل، لكن منافس مجاني قوي.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-013",
@@ -424,7 +502,13 @@
           "score": 6.9,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 9.3,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "عروض أسعار وموافقات مصطنعة تحاكي المسار؛ الطلب/الاحتفاظ غير مثبت.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-014",
@@ -456,7 +540,13 @@
           "score": 6.9,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 3.5,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "كشوف ورسوم Amazon حقيقية ومختلفة الصيغ لازمة للتحقق من دقة المحاسبة، حتى لو توفر مثال واحد عام.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-015",
@@ -488,7 +578,13 @@
           "score": 6.9,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 3.5,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "تسويات COD تتطلب كشوفاً حقيقية بصيغ متعددة وقواعد الناقل قبل ضمان الدقة.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-016",
@@ -520,7 +616,13 @@
           "score": 6.5,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 8.4,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "الأرباح تُحسب ببيانات صناعية، لكن مطابقة المنصات والمرتجعات تحتاج بيانات حقيقية.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-017",
@@ -552,7 +654,13 @@
           "score": 6.5,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 8.8,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "مواعيد وتجارب إشعارات وهمية كاملة ممكنة؛ معدل الغياب الحقيقي لا.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-018",
@@ -584,7 +692,13 @@
           "score": 5.9,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 9.3,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "مواعيد الإيجارات والدفعات الجزئية والتنبيهات قابلة لاختبار مستقل؛ ضعف التكرار في الفئة.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-019",
@@ -616,7 +730,13 @@
           "score": 6.9,
           "change": "new"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": 8.8,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "تفعيل QR واختبار تواريخ وضمان وهمي؛ لا يمكن اعتماد صحة الضمان القانوني دون البائع.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-020",
@@ -637,7 +757,13 @@
           "score": null,
           "change": "archived previous rejection"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": null,
+        "eligibility": "ARCHIVED",
+        "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
+        "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      }
     },
     {
       "id": "EG-021",
@@ -658,7 +784,13 @@
           "score": null,
           "change": "archived previous rejection"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": null,
+        "eligibility": "ARCHIVED",
+        "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
+        "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      }
     },
     {
       "id": "EG-022",
@@ -679,7 +811,13 @@
           "score": null,
           "change": "archived previous rejection"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": null,
+        "eligibility": "ARCHIVED",
+        "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
+        "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      }
     },
     {
       "id": "EG-023",
@@ -700,7 +838,13 @@
           "score": null,
           "change": "archived previous rejection"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": null,
+        "eligibility": "ARCHIVED",
+        "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
+        "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      }
     },
     {
       "id": "EG-024",
@@ -721,7 +865,13 @@
           "score": null,
           "change": "archived previous rejection"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": null,
+        "eligibility": "ARCHIVED",
+        "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
+        "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      }
     },
     {
       "id": "EG-025",
@@ -742,7 +892,13 @@
           "score": null,
           "change": "archived previous rejection"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": null,
+        "eligibility": "ARCHIVED",
+        "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
+        "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      }
     },
     {
       "id": "EG-026",
@@ -763,7 +919,13 @@
           "score": null,
           "change": "archived previous rejection"
         }
-      ]
+      ],
+      "independent_verification": {
+        "score": null,
+        "eligibility": "ARCHIVED",
+        "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
+        "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      }
     },
     {
       "id": "EG-027",
@@ -798,7 +960,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 6.5,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "حزمة PDF/تذكيرات تجريبية من سياسة منشورة ممكنة، لكن النتيجة الرئيسية (مطالبة مقبولة/قيمة مستردة) تعتمد على ناقل وملف حقيقي.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-028",
@@ -833,7 +1001,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 8.4,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "التقرير والفحص التصويري قابلان للاختبار؛ الجودة الميدانية في مكافحة الآفات لا.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-029",
@@ -867,7 +1041,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 8.7,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "سجل الصيانة وموعد الزيارة قابل للاختبار؛ لا يتحقق من تشغيل مولد فعلي.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-030",
@@ -901,7 +1081,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 8.6,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "تذكيرات شهادات افتراضية قابلة للفحص؛ لا يمكن إصدار شهادة معايرة حقيقة.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-031",
@@ -935,7 +1121,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 8.4,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "تذكير وفحص صور وهمية قابلان للاختبار؛ الفحص المعتمد يحتاج فني مختص.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-032",
@@ -970,7 +1162,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 4.7,
+        "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
+        "reason": "دقة تسويات المستخلصات المعقدة تحتاج عقوداً وشواهد حقيقية؛ عدم ملاءمة للبدء.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-033",
@@ -1005,7 +1203,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 8.6,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "نماذج تسجيل فحص مطبخ وهمية قابلة للفحص، لكن الامتثال الفعلي/سلامة الغذاء لا.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-034",
@@ -1039,7 +1243,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 8.8,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "قوائم فحص وصور أعطال افتراضية قابلة للفحص؛ صلاحية فحص مركبة واقعية لا.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-035",
@@ -1073,7 +1283,13 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 9.1,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "تقرير استلام شقة وهمية قابل للاختبار مع صور وملاحظات؛ لا حاجة للعميل لإثبات صحة التقرير.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     },
     {
       "id": "EG-036",
@@ -1107,7 +1323,250 @@
           "change": "new desk hypothesis"
         }
       ],
-      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific."
+      "trial_fit": "Unmeasured. Test activation and willingness-to-pay at day 90; cohort-specific.",
+      "independent_verification": {
+        "score": 9,
+        "eligibility": "SELF_TESTABLE_SCOPE",
+        "reason": "عقود تجريبية وتنبيه زيارات يصلح للاختبار؛ لا مزية واضحة عن التقويم.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
+    },
+    {
+      "id": "EG-037",
+      "title": "فاتورتك سليمة؟ — فحص JSON/XML للفواتير الإلكترونية المصرية قبل الإرسال",
+      "score_current": 6.7,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.4 desk estimate only, separate from independent verification",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7,
+        "competition_gap": 5,
+        "digital_acquisition": 6.5,
+        "mvp_simplicity": 6,
+        "retention": 7.5
+      },
+      "status": "CANDIDATE_SELF_TEST",
+      "reason": "New candidate prioritizes self-testable core output with public ground truth or controlled synthetic fixtures. Commercial traction unmeasured.",
+      "mvp": "Build 100 seeded JSON/XML invoices from official docs, mutate fields/totals/codes, run false positive/false negative tests; do not claim ETA production acceptance.",
+      "threat": "Direct EInvoiceLab provides local preflight; official ETA SDK defines validators. Narrow to versioned deterministic rules, bulk fixtures, line-by-line error explanations. No tax/acceptance guarantees.",
+      "evidence": [
+        "https://sdk.invoicing.eta.gov.eg/document-validation-rules/",
+        "https://sdk.invoicing.eta.gov.eg/api/04-get-document-type-version/",
+        "https://einvoicelab.com/eg/en/validation/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.4",
+          "date": "2026-11-18",
+          "score": 6.7,
+          "change": "new candidate screened under owner self-verifiability requirement"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.1,
+        "eligibility": "CANDIDATE_SELF_TEST",
+        "reason": "لا يحتاج عميل للفحص المحلي: قواعد ETA العامة + ملفات سليمة وخاطئة مصطنعة + اختبارات حسابات وschema. لا يمكن إثبات قبول ETA أو صحة التوقيع/الرقم الضريبي دون خدماتها وصلاحيات حقيقية.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
+    },
+    {
+      "id": "EG-038",
+      "title": "فرصتك — فلترة إعلانات المناقصات المصرية المنشورة علناً",
+      "score_current": 6.6,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.4 desk estimate only, separate from independent verification",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7,
+        "competition_gap": 4.5,
+        "digital_acquisition": 6,
+        "mvp_simplicity": 5.5,
+        "retention": 8
+      },
+      "status": "HOLD_SOURCE_ACCESS",
+      "reason": "New candidate prioritizes self-testable core output with public ground truth or controlled synthetic fixtures. Commercial traction unmeasured.",
+      "mvp": "Manually sample 100 public dated tenders from legitimate accessible sources and prove 100% source linkage and deadline recognition; source access/legal terms gate.",
+      "threat": "AmCham TAS and Bidanga offer free alerts; official portal is free. A low-fee niche needs fresh source license and precise local filtering.",
+      "evidence": [
+        "https://www.msme.eg/MappedFolder/ar/Lists/Documentaries/SMEs%20Guide.pdf",
+        "https://www.amcham.org.eg/tas",
+        "https://bidanga.com/country/EG"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.4",
+          "date": "2026-11-18",
+          "score": 6.6,
+          "change": "new candidate screened under owner self-verifiability requirement"
+        }
+      ],
+      "independent_verification": {
+        "score": 6,
+        "eligibility": "HOLD_SOURCE_ACCESS",
+        "reason": "الإعلانات العامة تصلح لمقارنة extraction/deadline مع المصدر، لكن مصدر etenders.gov.eg تعذر الوصول إليه خلال البحث؛ لا يمكن ضمان تغطية/تحديث بدون مصدر مشروع ومستقر.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
+    },
+    {
+      "id": "EG-039",
+      "title": "رابطك سليم — اختبار الروابط وصفحات الهبوط العربية",
+      "score_current": 6.4,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.4 desk estimate only, separate from independent verification",
+      "dimensions": {
+        "pain": 7.5,
+        "willingness": 6,
+        "competition_gap": 3.5,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 8,
+        "retention": 7.5
+      },
+      "status": "SELF_TESTABLE_WEAK_MARKET",
+      "reason": "New candidate prioritizes self-testable core output with public ground truth or controlled synthetic fixtures. Commercial traction unmeasured.",
+      "mvp": "20 seeded HTML landing pages, known broken links/images/redirects/mobile; compare to free competitor and false alerts; avoid crawling unauthorized websites.",
+      "threat": "UptimeRobot free 50 monitors and open source website checkers; niche must detect conversion-critical page errors beyond free monitoring.",
+      "evidence": [
+        "https://help.uptimerobot.com/en/articles/11604710-who-should-use-uptimerobot-s-free-plan",
+        "https://github.com/crawlseo/crawlseo"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.4",
+          "date": "2026-11-18",
+          "score": 6.4,
+          "change": "new candidate screened under owner self-verifiability requirement"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.4,
+        "eligibility": "SELF_TESTABLE_WEAK_MARKET",
+        "reason": "يمكن بناء صفحات اختبار نملكها بها روابط مكسورة وصور غير متاحة وتوجيهات خاطئة، وقياس الاكتشاف دون أي عميل. لا يمكن إثبات سير checkout/WhatsApp delivery من الخارج.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
+    },
+    {
+      "id": "EG-040",
+      "title": "نضّف ملفك — مدقق جودة CSV/Excel العربية قبل الاستيراد",
+      "score_current": 6.7,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.4 desk estimate only, separate from independent verification",
+      "dimensions": {
+        "pain": 7.5,
+        "willingness": 6.5,
+        "competition_gap": 4.5,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 8.5,
+        "retention": 7
+      },
+      "status": "SELF_TESTABLE_WEAK_MARKET",
+      "reason": "New candidate prioritizes self-testable core output with public ground truth or controlled synthetic fixtures. Commercial traction unmeasured.",
+      "mvp": "Generate 500 labeled Arabic Excel/CSV fixtures including mixed digits, encoding, duplicates, Egyptian dates and phone formats; compare accuracy against Excel.",
+      "threat": "Excel/Power Query and free import validators exist. Need Egypt-specific sample workflow and measurable time saving not generic cleanup.",
+      "evidence": [
+        "https://support.microsoft.com/en-us/excel",
+        "https://proceny.com/tools/price-list-comparison"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.4",
+          "date": "2026-11-18",
+          "score": 6.7,
+          "change": "new candidate screened under owner self-verifiability requirement"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.6,
+        "eligibility": "SELF_TESTABLE_WEAK_MARKET",
+        "reason": "يمكن صنع آلاف ملفات CSV/XLSX عربية ونتائج متوقعة للصفوف المتكررة والتواريخ والأرقام والفواصل وأعمدة ناقصة، دون بيانات عميل.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
+    },
+    {
+      "id": "EG-041",
+      "title": "استخرج جدولك — تحويل جداول PDF العربية إلى Excel",
+      "score_current": 5.9,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.4 desk estimate only, separate from independent verification",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 6.5,
+        "competition_gap": 2.5,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 4.5,
+        "retention": 6
+      },
+      "status": "SELF_TESTABLE_CROWDED",
+      "reason": "New candidate prioritizes self-testable core output with public ground truth or controlled synthetic fixtures. Commercial traction unmeasured.",
+      "mvp": "Create 100 PDF files with known 2D table cells, RTL, Arabic-Indic numbers, scans/noise. Benchmark CER/table structure and cost against free tools.",
+      "threat": "Free Arabic PDF to Excel converters and DocTable already exist. OCR is costly and competitive, maybe pay-per-file better than recurring.",
+      "evidence": [
+        "https://needmytools.com/en/pdf-to-excel",
+        "https://doctable.online/arabic-pdf-to-excel",
+        "https://nilepdf.com/en/pdf-to-excel"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.4",
+          "date": "2026-11-18",
+          "score": 5.9,
+          "change": "new candidate screened under owner self-verifiability requirement"
+        }
+      ],
+      "independent_verification": {
+        "score": 9,
+        "eligibility": "SELF_TESTABLE_CROWDED",
+        "reason": "التحويل والقياس مستقلان: أنشئ PDFs عربية وتحقق من cell-level extraction. الاختبار الاصطناعي وحده لا يغطي جودة صور الأجهزة/ماسحات المستخدم.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
+    },
+    {
+      "id": "EG-042",
+      "title": "كم فاتورتي؟ — حاسبة شرائح كهرباء مصر بتاريخ سريانها",
+      "score_current": 5.2,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.4 desk estimate only, separate from independent verification",
+      "dimensions": {
+        "pain": 6,
+        "willingness": 3,
+        "competition_gap": 2,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 9,
+        "retention": 7
+      },
+      "status": "SELF_TESTABLE_NO_SUBSCRIPTION_EDGE",
+      "reason": "New candidate prioritizes self-testable core output with public ground truth or controlled synthetic fixtures. Commercial traction unmeasured.",
+      "mvp": "Match official dated tariff examples and boundary cases (0/50/100 etc); commercial STOP unless distinct recurring value demonstrated.",
+      "threat": "Free official Egypt electricity calculator exists, plus phone apps; poor subscription potential.",
+      "evidence": [
+        "https://egyptera.org/en/TarrifApril2026.aspx",
+        "https://assets.eehc.gov.eg/files/%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B7%D9%86%20%D9%84%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84%20%D9%85%D8%B9%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9.pdf"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.4",
+          "date": "2026-11-18",
+          "score": 5.2,
+          "change": "new candidate screened under owner self-verifiability requirement"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.7,
+        "eligibility": "SELF_TESTABLE_NO_SUBSCRIPTION_EDGE",
+        "reason": "الحساب يمكن مطابقته مع شرائح أسعار الكهرباء الرسمية وحالات مصطنعة دون حساب عميل.",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      }
     }
   ],
   "trial_offer_proposal": {
@@ -1122,5 +1581,24 @@
     "first_paid_conversion_measurement": "day 91-120",
     "paid_renewal_followup": "day 121-180",
     "free_trial_costs": "tracked per user; see v0.3 trial economics"
+  },
+  "owner_new_hard_constraint": "A core product must be independently testable, without needing an actual paying client's proprietary documents or production credentials, using public official references or deterministic seeded fixtures. Technical correctness != monetization validation.",
+  "decision_scope": {
+    "commercial_rank_rule": "Original weighted desk score preserved; independent execution eligibility evaluated separately",
+    "immediate_exclude_first_build": [
+      "EG-008",
+      "EG-014",
+      "EG-015",
+      "EG-027"
+    ],
+    "self_test_shortlist": [
+      "EG-009",
+      "EG-010",
+      "EG-037",
+      "EG-040",
+      "EG-003"
+    ],
+    "status": "NEW_HARD_GATE_SELF_TESTABILITY_PENDING_ACTUAL_EXECUTION",
+    "top_screening_not_equal_to_first_build": true
   }
 }
