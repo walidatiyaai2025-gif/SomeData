@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "study_version": "0.4",
+  "study_version": "0.5",
   "last_reviewed": "2026-11-18",
   "source_of_truth": "Documentation/Egypt-MicroSaaS/Idea-Registry.json",
   "rating_kind": "hypothesis screening / not validated ROI",
@@ -42,19 +42,23 @@
     "EG-012",
     "EG-036",
     "EG-038",
+    "EG-044",
     "EG-016",
     "EG-017",
     "EG-032",
+    "EG-046",
     "EG-033",
     "EG-039",
     "EG-005",
     "EG-007",
+    "EG-043",
     "EG-004",
     "EG-035",
     "EG-034",
     "EG-018",
     "EG-041",
     "EG-006",
+    "EG-045",
     "EG-042"
   ],
   "ideas": [
@@ -88,6 +92,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "إثبات توقيت التذكير ممكن بالبيانات المصطنعة، لكن زيادة الزيارات/الأرباح لا تُختبر من غير عملاء.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -120,6 +128,21 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "قوائم نواقص ورفع وتجميع مستندات صورية تكفي لفحص الوظيفة؛ لا تثبت ساعات توفير فعلية.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 6.7,
+        "dimensions": {
+          "remote_acquisition": 6.1,
+          "independent_verification": 8.5,
+          "pan_arab_portability": 7.8,
+          "self_serve_onboarding": 5.5,
+          "competition_gap": 4.5,
+          "unit_economics_fit": 6.5
+        },
+        "provisional_gate_pass": false,
+        "reason": "Accountants require trust and handling sensitive docs across country regimes",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -152,6 +175,21 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "اختبار العقود والتواريخ والتنبيهات بملفات وعقود مصطنعة بالكامل؛ لا تميّز عن Calendar مجاناً.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 7.3,
+        "dimensions": {
+          "remote_acquisition": 6.3,
+          "independent_verification": 9.3,
+          "pan_arab_portability": 9.3,
+          "self_serve_onboarding": 9.2,
+          "competition_gap": 2.5,
+          "unit_economics_fit": 7
+        },
+        "provisional_gate_pass": false,
+        "reason": "Calendar/Excel substitution; weak need to pay monthly",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -184,6 +222,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "اختبار موقعك وGPS ممكن، لكن تحايل الموظفين/تشغيل مواقع مختلفة يتطلب تجارب ميدانية.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -216,6 +258,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "جدول أقساط وقيود مصطنعة يثبت الحسابات، لكن التبني والتحصيل الحقيقيين لا.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -248,6 +294,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "توليد طلاب ومدفوعات وهمية لاختبار سير العمل؛ المنافسة والتبني غير مثبتين.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -280,6 +330,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "حساب أجور القطعة قابل للاختبار بملفات صناعية، لكن سير عمل الورشة غير مثبت.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -318,6 +372,21 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "مرفوض حالياً كأول منتج: تحتاج صيغ كشوف جوميا الحقيقية المتنوعة ومطابقتها مع تحويلات لتأكيد الإنتاج؛ البيانات العامة لا تكفي.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 4,
+        "dimensions": {
+          "remote_acquisition": 5.4,
+          "independent_verification": 3.5,
+          "pan_arab_portability": 1.5,
+          "self_serve_onboarding": 3,
+          "competition_gap": 3.8,
+          "unit_economics_fit": 5.3
+        },
+        "provisional_gate_pass": false,
+        "reason": "Jumia Egypt platform-dependent and real settlement exports needed",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -356,6 +425,21 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "يمكن تسجيل عمل وهمي بصور اختبار وإنشاء تقرير وإقرار/PDF ومقارنة الناتج المتوقع دون عميل؛ التأثير على النزاعات والقيمة القانونية غير مثبت.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 7.2,
+        "dimensions": {
+          "remote_acquisition": 6.4,
+          "independent_verification": 9.3,
+          "pan_arab_portability": 8.5,
+          "self_serve_onboarding": 7.8,
+          "competition_gap": 3.5,
+          "unit_economics_fit": 6.5
+        },
+        "provisional_gate_pass": false,
+        "reason": "FieldProof free and local FSM competitors; tradespeople onboarding may require calls",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -394,6 +478,21 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "مهام تنظيف وهمية وصور وفحوص قبول وإدارة وردية كاملة قابلة للاختبار داخلياً؛ التزام عامل حقيقي غير مثبت.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 6.6,
+        "dimensions": {
+          "remote_acquisition": 5.8,
+          "independent_verification": 9.3,
+          "pan_arab_portability": 8.5,
+          "self_serve_onboarding": 5.7,
+          "competition_gap": 3.2,
+          "unit_economics_fit": 5.8
+        },
+        "provisional_gate_pass": false,
+        "reason": "Workers/supervisors must be trained; B2B operations support high",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -432,6 +531,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "محاضر وفروقات كميات وصور اختبار مادية، تحتاج إثبات احتياج العملاء لا صحة التقرير.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -470,6 +573,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "قائمتا أسعار مؤلفتان بقيم معروفة تتيحان اختبار الفروق بشكل كامل، لكن منافس مجاني قوي.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -508,6 +615,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "عروض أسعار وموافقات مصطنعة تحاكي المسار؛ الطلب/الاحتفاظ غير مثبت.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -546,6 +657,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "كشوف ورسوم Amazon حقيقية ومختلفة الصيغ لازمة للتحقق من دقة المحاسبة، حتى لو توفر مثال واحد عام.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -584,6 +699,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "تسويات COD تتطلب كشوفاً حقيقية بصيغ متعددة وقواعد الناقل قبل ضمان الدقة.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -622,6 +741,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "الأرباح تُحسب ببيانات صناعية، لكن مطابقة المنصات والمرتجعات تحتاج بيانات حقيقية.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -660,6 +783,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "مواعيد وتجارب إشعارات وهمية كاملة ممكنة؛ معدل الغياب الحقيقي لا.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -698,6 +825,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "مواعيد الإيجارات والدفعات الجزئية والتنبيهات قابلة لاختبار مستقل؛ ضعف التكرار في الفئة.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -736,6 +867,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "تفعيل QR واختبار تواريخ وضمان وهمي؛ لا يمكن اعتماد صحة الضمان القانوني دون البائع.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -763,6 +898,10 @@
         "eligibility": "ARCHIVED",
         "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
         "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -790,6 +929,10 @@
         "eligibility": "ARCHIVED",
         "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
         "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -817,6 +960,10 @@
         "eligibility": "ARCHIVED",
         "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
         "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -844,6 +991,10 @@
         "eligibility": "ARCHIVED",
         "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
         "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -871,6 +1022,10 @@
         "eligibility": "ARCHIVED",
         "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
         "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -898,6 +1053,10 @@
         "eligibility": "ARCHIVED",
         "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
         "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -925,6 +1084,10 @@
         "eligibility": "ARCHIVED",
         "reason": "Previous business rejection retained; no re-entry solely due to easy simulation.",
         "evaluation_status": "ANALYST_PLAN_NOT_TESTED"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -966,6 +1129,21 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "حزمة PDF/تذكيرات تجريبية من سياسة منشورة ممكنة، لكن النتيجة الرئيسية (مطالبة مقبولة/قيمة مستردة) تعتمد على ناقل وملف حقيقي.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 5.6,
+        "dimensions": {
+          "remote_acquisition": 6.2,
+          "independent_verification": 6.5,
+          "pan_arab_portability": 4.5,
+          "self_serve_onboarding": 5.5,
+          "competition_gap": 4.3,
+          "unit_economics_fit": 5.1
+        },
+        "provisional_gate_pass": false,
+        "reason": "Carrier policies differ and real acceptance needs customer claims",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -1007,6 +1185,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "التقرير والفحص التصويري قابلان للاختبار؛ الجودة الميدانية في مكافحة الآفات لا.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1047,6 +1229,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "سجل الصيانة وموعد الزيارة قابل للاختبار؛ لا يتحقق من تشغيل مولد فعلي.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1087,6 +1273,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "تذكيرات شهادات افتراضية قابلة للفحص؛ لا يمكن إصدار شهادة معايرة حقيقة.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1127,6 +1317,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "تذكير وفحص صور وهمية قابلان للاختبار؛ الفحص المعتمد يحتاج فني مختص.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1168,6 +1362,10 @@
         "eligibility": "NEEDS_EXTERNAL_EVIDENCE",
         "reason": "دقة تسويات المستخلصات المعقدة تحتاج عقوداً وشواهد حقيقية؛ عدم ملاءمة للبدء.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1209,6 +1407,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "نماذج تسجيل فحص مطبخ وهمية قابلة للفحص، لكن الامتثال الفعلي/سلامة الغذاء لا.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1249,6 +1451,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "قوائم فحص وصور أعطال افتراضية قابلة للفحص؛ صلاحية فحص مركبة واقعية لا.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1289,6 +1495,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "تقرير استلام شقة وهمية قابل للاختبار مع صور وملاحظات؛ لا حاجة للعميل لإثبات صحة التقرير.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1329,6 +1539,10 @@
         "eligibility": "SELF_TESTABLE_SCOPE",
         "reason": "عقود تجريبية وتنبيه زيارات يصلح للاختبار؛ لا مزية واضحة عن التقويم.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1369,6 +1583,21 @@
         "eligibility": "CANDIDATE_SELF_TEST",
         "reason": "لا يحتاج عميل للفحص المحلي: قواعد ETA العامة + ملفات سليمة وخاطئة مصطنعة + اختبارات حسابات وschema. لا يمكن إثبات قبول ETA أو صحة التوقيع/الرقم الضريبي دون خدماتها وصلاحيات حقيقية.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 6.7,
+        "dimensions": {
+          "remote_acquisition": 7.2,
+          "independent_verification": 9.1,
+          "pan_arab_portability": 3,
+          "self_serve_onboarding": 8.6,
+          "competition_gap": 4,
+          "unit_economics_fit": 6.3
+        },
+        "provisional_gate_pass": false,
+        "reason": "ETA-specific rules not pan-Arab, local preflight competitor exists",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -1409,6 +1638,10 @@
         "eligibility": "HOLD_SOURCE_ACCESS",
         "reason": "الإعلانات العامة تصلح لمقارنة extraction/deadline مع المصدر، لكن مصدر etenders.gov.eg تعذر الوصول إليه خلال البحث؛ لا يمكن ضمان تغطية/تحديث بدون مصدر مشروع ومستقر.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1448,6 +1681,21 @@
         "eligibility": "SELF_TESTABLE_WEAK_MARKET",
         "reason": "يمكن بناء صفحات اختبار نملكها بها روابط مكسورة وصور غير متاحة وتوجيهات خاطئة، وقياس الاكتشاف دون أي عميل. لا يمكن إثبات سير checkout/WhatsApp delivery من الخارج.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 8.1,
+        "dimensions": {
+          "remote_acquisition": 8.4,
+          "independent_verification": 9.4,
+          "pan_arab_portability": 9.5,
+          "self_serve_onboarding": 9.3,
+          "competition_gap": 2.5,
+          "unit_economics_fit": 7
+        },
+        "provisional_gate_pass": true,
+        "reason": "Free SEO & website check tools already pervasive",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -1487,6 +1735,21 @@
         "eligibility": "SELF_TESTABLE_WEAK_MARKET",
         "reason": "يمكن صنع آلاف ملفات CSV/XLSX عربية ونتائج متوقعة للصفوف المتكررة والتواريخ والأرقام والفواصل وأعمدة ناقصة، دون بيانات عميل.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 8.1,
+        "dimensions": {
+          "remote_acquisition": 8.4,
+          "independent_verification": 9.6,
+          "pan_arab_portability": 9.7,
+          "self_serve_onboarding": 9.7,
+          "competition_gap": 2.3,
+          "unit_economics_fit": 5.5
+        },
+        "provisional_gate_pass": true,
+        "reason": "SEO acquisition plausible but free Excel import validators",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     },
     {
@@ -1527,6 +1790,10 @@
         "eligibility": "SELF_TESTABLE_CROWDED",
         "reason": "التحويل والقياس مستقلان: أنشئ PDFs عربية وتحقق من cell-level extraction. الاختبار الاصطناعي وحده لا يغطي جودة صور الأجهزة/ماسحات المستخدم.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
       }
     },
     {
@@ -1566,6 +1833,288 @@
         "eligibility": "SELF_TESTABLE_NO_SUBSCRIPTION_EDGE",
         "reason": "الحساب يمكن مطابقته مع شرائح أسعار الكهرباء الرسمية وحالات مصطنعة دون حساب عميل.",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "owner_fit_v05": {
+        "evaluation_status": "NOT_YET_REASSESSED_UNDER_REMOTE_MARKETING_GATE",
+        "score": null
+      }
+    },
+    {
+      "id": "EG-043",
+      "title": "إثبات الشغل العربي — تقارير خدمة + قوائم فحص + موعد المتابعة",
+      "score_current": 6.3,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.5 desk hypothesis: market opportunity score preserved separately from owner remote fit",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7.5,
+        "competition_gap": 3,
+        "digital_acquisition": 5.5,
+        "mvp_simplicity": 5.5,
+        "retention": 8.5
+      },
+      "status": "BUNDLE_OPTION_NOT_FIRST_BUILD",
+      "reason": "Single field-service contractor workflow only: complete job => checklist + photos => client acknowledgment/PDF => optional next-visit reminder",
+      "mvp": "Use fake field-service jobs, photos, signatures, checklist rejection and time shifts; compare reports; no customer/real technician needed",
+      "threat": "MatixFSM, OpsIQ, Zentid, AIWaqt, FieldProof, SafetyCulture and Jotform already cover most features; bundle must beat complexity, not claim uniqueness",
+      "evidence": [
+        "https://matixerp.com/fsm/",
+        "https://www.tryopsiq.com/",
+        "https://zentid.com/features/whatsapp-field-service-management/",
+        "https://www.jotform.com/pricing/",
+        "https://safetyculture.com/checklists/pre-shipment-inspection"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.5",
+          "date": "2026-11-18",
+          "score": 6.3,
+          "change": "new composition or pan-Arab remote-first candidate, no traction"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.2,
+        "eligibility": "SELF_TESTABLE_DESIGNED_NOT_TESTED",
+        "reason": "Use fake field-service jobs, photos, signatures, checklist rejection and time shifts; compare reports; no customer/real technician needed",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "composition_from": [
+        "EG-009",
+        "EG-010",
+        "EG-003"
+      ],
+      "target_regions": [
+        "EG",
+        "SA",
+        "AE",
+        "KW",
+        "JO"
+      ],
+      "price_hypothesis": "Trial 90 days full features. Indicative USD 3-9/month/team depending jobs and storage; not validated.",
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 6.9,
+        "dimensions": {
+          "remote_acquisition": 6.2,
+          "independent_verification": 9.2,
+          "pan_arab_portability": 8.8,
+          "self_serve_onboarding": 6.3,
+          "competition_gap": 3.2,
+          "unit_economics_fit": 6.5
+        },
+        "provisional_gate_pass": false,
+        "reason": "Service crew onboarding/support and strong Arab-language incumbent offerings",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      }
+    },
+    {
+      "id": "EG-044",
+      "title": "رقيب العربي — فحص إطلاق صفحات عربية RTL وروابط وواجهة الموبايل",
+      "score_current": 6.6,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.5 desk hypothesis: market opportunity score preserved separately from owner remote fit",
+      "dimensions": {
+        "pain": 7.5,
+        "willingness": 6.5,
+        "competition_gap": 3,
+        "digital_acquisition": 9,
+        "mvp_simplicity": 7.5,
+        "retention": 7.5
+      },
+      "status": "REMOTE_FIRST_SELF_TEST_CANDIDATE",
+      "reason": "Public URL or authorized owned site => Arabic/RTL rendering checks, redirects/images/SEO headings, actionable screenshot report; recurring monitoring only for paying tier",
+      "mvp": "Host owned Arabic sample pages with 50 known RTL/clipping/broken-link/mobile issues and safe synthetic fixes; measure precision/recall and scan time; no real client data",
+      "threat": "Arablyzer, MizanRTL ($19 Indie), Burhan QA ($20 Starter), Google Search Console, SEOquake, free site/RTL checkers; demand differentiation required",
+      "evidence": [
+        "https://arablyzer.com/en/",
+        "https://mizanrtl.com/",
+        "https://www.useburhan.com/arabic-rtl-testing",
+        "https://support.google.com/webmasters/answer/9128668?hl=en",
+        "https://chromewebstore.google.com/detail/seoquake-on-page-seo-chec/akdgnmcogleenhbclghghlkkdndkjdjc"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.5",
+          "date": "2026-11-18",
+          "score": 6.6,
+          "change": "new composition or pan-Arab remote-first candidate, no traction"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.5,
+        "eligibility": "SELF_TESTABLE_DESIGNED_NOT_TESTED",
+        "reason": "Host owned Arabic sample pages with 50 known RTL/clipping/broken-link/mobile issues and safe synthetic fixes; measure precision/recall and scan time; no real client data",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "composition_from": [
+        "EG-039"
+      ],
+      "target_regions": [
+        "EG",
+        "SA",
+        "AE",
+        "KW",
+        "JO",
+        "MA",
+        "TN"
+      ],
+      "price_hypothesis": "USD 0 basic demo, USD 3-9/month monitoring estimate; 90-day full trial with clearly disclosed scan rate/resource caps.",
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 8.3,
+        "dimensions": {
+          "remote_acquisition": 8.6,
+          "independent_verification": 9.5,
+          "pan_arab_portability": 9.4,
+          "self_serve_onboarding": 9.1,
+          "competition_gap": 3,
+          "unit_economics_fit": 7.3
+        },
+        "provisional_gate_pass": true,
+        "reason": "Zero-login URL demo and organic Arabic SEO/agency distribution; mature competitors",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      }
+    },
+    {
+      "id": "EG-045",
+      "title": "صندوق الملفات العربي — تنظيف Excel/CSV وتحويل جداول PDF إلى Excel",
+      "score_current": 5.5,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.5 desk hypothesis: market opportunity score preserved separately from owner remote fit",
+      "dimensions": {
+        "pain": 7,
+        "willingness": 5,
+        "competition_gap": 2,
+        "digital_acquisition": 9,
+        "mvp_simplicity": 5,
+        "retention": 5
+      },
+      "status": "CONTENT_LEAD_MAGNET_NOT_SUBSCRIPTION_PRIORITY",
+      "reason": "Online self-serve Arabic document utility with optional browser-local processing; one job per visit, privacy-first",
+      "mvp": "Manufacture labeled Arabic tables and CSV files; track cell-level extraction and precision/recall; measure public examples; no customer files",
+      "threat": "Microsoft Excel Power Query, DocTable, NeedMyTools, NilePDF and existing free converters; low repeat usage for subscription",
+      "evidence": [
+        "https://support.microsoft.com/en-us/excel",
+        "https://needmytools.com/en/pdf-to-excel",
+        "https://nilepdf.com/en/pdf-to-excel"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.5",
+          "date": "2026-11-18",
+          "score": 5.5,
+          "change": "new composition or pan-Arab remote-first candidate, no traction"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.5,
+        "eligibility": "SELF_TESTABLE_DESIGNED_NOT_TESTED",
+        "reason": "Manufacture labeled Arabic tables and CSV files; track cell-level extraction and precision/recall; measure public examples; no customer files",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "composition_from": [
+        "EG-040",
+        "EG-041"
+      ],
+      "target_regions": [
+        "EG",
+        "SA",
+        "AE",
+        "KW",
+        "JO",
+        "MA",
+        "TN"
+      ],
+      "price_hypothesis": "Free basic/one-time file credits more plausible than subscription; trial 90 days likely economically poor with OCR.",
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 8,
+        "dimensions": {
+          "remote_acquisition": 8.7,
+          "independent_verification": 9.5,
+          "pan_arab_portability": 9.8,
+          "self_serve_onboarding": 9.6,
+          "competition_gap": 1.8,
+          "unit_economics_fit": 4
+        },
+        "provisional_gate_pass": true,
+        "reason": "Very easy to market but mostly free one-off tools; bad recurring economics",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
+      }
+    },
+    {
+      "id": "EG-046",
+      "title": "تعريب مضبوط — مدقق ملفات ترجمة التطبيقات وRTL قبل الإصدار",
+      "score_current": 6.5,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.5 desk hypothesis: market opportunity score preserved separately from owner remote fit",
+      "dimensions": {
+        "pain": 7.5,
+        "willingness": 6.5,
+        "competition_gap": 3,
+        "digital_acquisition": 8.5,
+        "mvp_simplicity": 7.5,
+        "retention": 7
+      },
+      "status": "REMOTE_FIRST_SELF_TEST_CANDIDATE",
+      "reason": "Upload sample/en-ar JSON/ARB locale files or run OSS CLI in CI; detect missing keys, ICU Arabic plural gaps, placeholder and mixed-direction bugs; optional browser screenshot checks as distinct add-on",
+      "mvp": "Generate 1000 deterministic locale fixtures with known missing keys, ICU plural, placeholders, RTL and encoding issues; no private repos or customers necessary",
+      "threat": "Crowdin, Lokalise, Localizely and free open-source i18n-validate/translation-key-linter already check keys/placeholders and plurals; specialized Arabic actionable UX must be demonstrably better",
+      "evidence": [
+        "https://support.crowdin.com/project-settings/qa-checks/",
+        "https://docs.lokalise.com/en/articles/2564656-qa-checks",
+        "https://github.com/i18n-agent/i18n-validate",
+        "https://github.com/i18n-l10n/translation-key-linter"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.5",
+          "date": "2026-11-18",
+          "score": 6.5,
+          "change": "new composition or pan-Arab remote-first candidate, no traction"
+        }
+      ],
+      "independent_verification": {
+        "score": 9.7,
+        "eligibility": "SELF_TESTABLE_DESIGNED_NOT_TESTED",
+        "reason": "Generate 1000 deterministic locale fixtures with known missing keys, ICU plural, placeholders, RTL and encoding issues; no private repos or customers necessary",
+        "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
+      },
+      "composition_from": [
+        "EG-039"
+      ],
+      "target_regions": [
+        "EG",
+        "SA",
+        "AE",
+        "KW",
+        "JO",
+        "MA",
+        "TN"
+      ],
+      "price_hypothesis": "Free CLI/open-source scanner + USD 3-15/month hosted CI history as test hypothesis; do not promise sustainable revenue.",
+      "owner_fit_v05": {
+        "evaluation_status": "ANALYST_DESK_ESTIMATE_NOT_TESTED",
+        "score": 8.2,
+        "dimensions": {
+          "remote_acquisition": 8.4,
+          "independent_verification": 9.7,
+          "pan_arab_portability": 9.6,
+          "self_serve_onboarding": 9,
+          "competition_gap": 3.1,
+          "unit_economics_fit": 7
+        },
+        "provisional_gate_pass": true,
+        "reason": "GitHub OSS and developer content distribution across borders, free competitors",
+        "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
       }
     }
   ],
@@ -1582,7 +2131,7 @@
     "paid_renewal_followup": "day 121-180",
     "free_trial_costs": "tracked per user; see v0.3 trial economics"
   },
-  "owner_new_hard_constraint": "A core product must be independently testable, without needing an actual paying client's proprietary documents or production credentials, using public official references or deterministic seeded fixtures. Technical correctness != monetization validation.",
+  "owner_new_hard_constraint": "A core product must be independently testable, without needing an actual paying client's proprietary documents or production credentials, using public official references or deterministic seeded fixtures. Technical correctness != monetization validation. v0.5: Must be marketed/acquired fully remotely from outside Egypt, with measurable self-serve funnel and pan-Arab portability assessed per country. Core marketing channel and reachable buyer persona are mandatory before build.",
   "decision_scope": {
     "commercial_rank_rule": "Original weighted desk score preserved; independent execution eligibility evaluated separately",
     "immediate_exclude_first_build": [
@@ -1600,5 +2149,77 @@
     ],
     "status": "NEW_HARD_GATE_SELF_TESTABILITY_PENDING_ACTUAL_EXECUTION",
     "top_screening_not_equal_to_first_build": true
+  },
+  "owner_fit_v05": {
+    "weights": {
+      "remote_acquisition": 0.35,
+      "independent_verification": 0.2,
+      "pan_arab_portability": 0.15,
+      "self_serve_onboarding": 0.1,
+      "competition_gap": 0.1,
+      "unit_economics_fit": 0.1
+    },
+    "mandatory_gates": {
+      "function_independently_verifiable": true,
+      "can_sell_remotely_without_in_person_setup": true,
+      "require_no_customer_proprietary_data_for_product_validation": true,
+      "minimum_assessed_remote_marketing": 7,
+      "minimum_assessed_pan_arab_portability": 8
+    },
+    "interpretation": "Analyst owner-fit estimate; NOT probability of business success, NOT achieved test results. Eligibility requires both hard gates plus grounded payment/delivery checks.",
+    "entry_status": "DESK_ESTIMATES_NOT_TESTED",
+    "scored_ids": [
+      "EG-009",
+      "EG-010",
+      "EG-003",
+      "EG-002",
+      "EG-037",
+      "EG-039",
+      "EG-040",
+      "EG-008",
+      "EG-027",
+      "EG-043",
+      "EG-044",
+      "EG-045",
+      "EG-046"
+    ],
+    "remote_ranked_ids": [
+      "EG-044",
+      "EG-046",
+      "EG-039",
+      "EG-040",
+      "EG-045",
+      "EG-003",
+      "EG-009",
+      "EG-043",
+      "EG-002",
+      "EG-037",
+      "EG-010",
+      "EG-027",
+      "EG-008"
+    ]
+  },
+  "region_expansion_policy": {
+    "country_grouping": "country-by-country launch gates, shared Arabic core, per-country payment and taxes verified, launch sequentially; not all Arab nations at once",
+    "priority_test_markets": [
+      "EG",
+      "SA",
+      "AE",
+      "KW",
+      "JO"
+    ],
+    "later_check": [
+      "MA",
+      "TN"
+    ],
+    "restricted_or_payment_uncertain": "Verify payment processor buyer-country and supplier eligibility; some territories blocked, never claim pan-Arab universal",
+    "unknowns": [
+      "local payment methods",
+      "country conversion/CAC",
+      "buyer support timezones",
+      "tax obligations",
+      "fraud/refund",
+      "currency/dialect variants"
+    ]
   }
 }
