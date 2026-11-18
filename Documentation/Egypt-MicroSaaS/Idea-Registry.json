@@ -2088,9 +2088,7 @@
         "reason": "Generate 1000 deterministic locale fixtures with known missing keys, ICU plural, placeholders, RTL and encoding issues; no private repos or customers necessary",
         "evaluation_status": "ANALYST_FEASIBILITY_NOT_ACTUAL_TEST"
       },
-      "composition_from": [
-        "EG-039"
-      ],
+      "composition_from": [],
       "target_regions": [
         "EG",
         "SA",
@@ -2115,7 +2113,10 @@
         "provisional_gate_pass": true,
         "reason": "GitHub OSS and developer content distribution across borders, free competitors",
         "marketing_test_required": "Landing page + free sample result + country-segmented qualified signups + day-90 paid conversion; no sales yet"
-      }
+      },
+      "adjacent_to": [
+        "EG-039"
+      ]
     }
   ],
   "trial_offer_proposal": {
