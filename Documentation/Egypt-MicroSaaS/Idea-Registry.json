@@ -1,0 +1,759 @@
+{
+  "schema_version": "1.0",
+  "study_version": "0.2",
+  "last_reviewed": "2026-11-18",
+  "source_of_truth": "Documentation/Egypt-MicroSaaS/Idea-Registry.json",
+  "rating_kind": "hypothesis screening / not validated ROI",
+  "rating_threshold": "9/10 requires paid traction, comparative retention, CAC/payback evidence",
+  "weights": {
+    "pain": 0.25,
+    "willingness": 0.2,
+    "competition_gap": 0.2,
+    "digital_acquisition": 0.15,
+    "mvp_simplicity": 0.1,
+    "retention": 0.1
+  },
+  "price_tests_egp": [
+    59,
+    149,
+    299
+  ],
+  "marketing_budget_usd": "initial reference 500; flexible, no approval to spend",
+  "ranking_rule": "score_current desc, then stable ID asc; unscored archived ideas kept, never assigned fabricated historical ratings",
+  "ranked_ids": [
+    "EG-008",
+    "EG-009",
+    "EG-010",
+    "EG-001",
+    "EG-002",
+    "EG-003",
+    "EG-011",
+    "EG-013",
+    "EG-014",
+    "EG-015",
+    "EG-019",
+    "EG-012",
+    "EG-016",
+    "EG-017",
+    "EG-005",
+    "EG-007",
+    "EG-004",
+    "EG-018",
+    "EG-006"
+  ],
+  "ideas": [
+    {
+      "id": "EG-001",
+      "title": "راجِعني — عودة عملاء الصيانة الدورية",
+      "score_current": 7.5,
+      "score_previous": 7.5,
+      "previous_as_of": "2026-11-18 v0.1",
+      "score_basis": "v0.1 retained; original dimension scores unavailable",
+      "dimensions": null,
+      "status": "VALIDATE",
+      "reason": "Maintenance return visits; competitor water filters and garages",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.1",
+          "date": "2026-11-18",
+          "score": 7.5
+        },
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 7.5,
+          "change": "retained"
+        }
+      ]
+    },
+    {
+      "id": "EG-002",
+      "title": "مستندك — نواقص مستندات مكاتب المحاسبة",
+      "score_current": 7.4,
+      "score_previous": 7.4,
+      "previous_as_of": "2026-11-18 v0.1",
+      "score_basis": "v0.1 retained; original dimension scores unavailable",
+      "dimensions": null,
+      "status": "VALIDATE",
+      "reason": "Monthly document collection; local alternatives Structa/Thiqa/Mizan",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.1",
+          "date": "2026-11-18",
+          "score": 7.4
+        },
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 7.4,
+          "change": "retained"
+        }
+      ]
+    },
+    {
+      "id": "EG-003",
+      "title": "ميعاد التجديد — عقود B2B الخدمية",
+      "score_current": 7.3,
+      "score_previous": 7.3,
+      "previous_as_of": "2026-11-18 v0.1",
+      "score_basis": "v0.1 retained; original dimension scores unavailable",
+      "dimensions": null,
+      "status": "VALIDATE",
+      "reason": "Renewals have clear monetary value but calendar substitution risk",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.1",
+          "date": "2026-11-18",
+          "score": 7.3
+        },
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 7.3,
+          "change": "retained"
+        }
+      ]
+    },
+    {
+      "id": "EG-004",
+      "title": "بصمة حضور GPS للموظفين",
+      "score_current": 6.2,
+      "score_previous": 6.2,
+      "previous_as_of": "2026-11-18 v0.1",
+      "score_basis": "v0.1 retained; original dimension scores unavailable",
+      "dimensions": null,
+      "status": "LOW_PRIORITY",
+      "reason": "Jibble free and Dawmly/Mawgood local alternatives",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.1",
+          "date": "2026-11-18",
+          "score": 6.2
+        },
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.2,
+          "change": "retained"
+        }
+      ]
+    },
+    {
+      "id": "EG-005",
+      "title": "الأقساط والمديونيات العامة",
+      "score_current": 6.3,
+      "score_previous": 6.3,
+      "previous_as_of": "2026-11-18 v0.1",
+      "score_basis": "v0.1 retained; original dimension scores unavailable",
+      "dimensions": null,
+      "status": "LOW_PRIORITY",
+      "reason": "Qasetly and debt-ledger tools; financial data trust",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.1",
+          "date": "2026-11-18",
+          "score": 6.3
+        },
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.3,
+          "change": "retained"
+        }
+      ]
+    },
+    {
+      "id": "EG-006",
+      "title": "تحصيل السناتر والطلاب",
+      "score_current": 5.8,
+      "score_previous": 5.8,
+      "previous_as_of": "2026-11-18 v0.1",
+      "score_basis": "v0.1 retained; original dimension scores unavailable",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Crowded local management tools; minor data",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.1",
+          "date": "2026-11-18",
+          "score": 5.8
+        },
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 5.8,
+          "change": "retained"
+        }
+      ]
+    },
+    {
+      "id": "EG-007",
+      "title": "حسبة شغل — إنتاج المشاغل بالقطعة",
+      "score_current": 6.3,
+      "score_previous": 6.3,
+      "previous_as_of": "2026-11-18 v0.1",
+      "score_basis": "v0.1 retained; original dimension scores unavailable",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Previously rejected; data-entry habit and adoption risk",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.1",
+          "date": "2026-11-18",
+          "score": 6.3
+        },
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.3,
+          "change": "retained"
+        }
+      ]
+    },
+    {
+      "id": "EG-008",
+      "title": "راجع تسويتك — مطابقة كشوف جوميا",
+      "score_current": 8,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 9,
+        "willingness": 8,
+        "competition_gap": 8,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 7,
+        "retention": 8
+      },
+      "status": "PRIORITY_TEST",
+      "reason": "Official Jumia reconciliation workflow confirms a real task, not proven demand",
+      "mvp": "Jumia account statement + manual payout; no credential scraping; identify unexplained fee gaps",
+      "threat": "Jumia native reports/manual Excel; platform format/API dependency",
+      "evidence": [
+        "https://vendorhub.jumia.com.eg/reconciliation-for-sellers/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 8,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-009",
+      "title": "سلّمتك — محضر تسليم الخدمة بالصور والإقرار",
+      "score_current": 7.7,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 8,
+        "competition_gap": 7.5,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 8,
+        "retention": 8
+      },
+      "status": "PRIORITY_TEST",
+      "reason": "Disputes and rework could be measurable, but no local customer study",
+      "mvp": "Before/after photos; limited signed acknowledgement; PDF/WhatsApp export",
+      "threat": "FieldProof free tier and generic forms; legal proof is not certified signing",
+      "evidence": [
+        "https://apps.apple.com/eg/app/fieldproof-job-photo-report/id6791702124"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 7.7,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-010",
+      "title": "شغل اتعمل — قوائم إثبات تنظيف مواقع يومية",
+      "score_current": 7.6,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7,
+        "competition_gap": 7.5,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 7,
+        "retention": 9
+      },
+      "status": "PRIORITY_TEST",
+      "reason": "Daily use could raise retention; no proof small firms will pay",
+      "mvp": "Assign single checklist and dated photos; manager approve/reject; export report",
+      "threat": "VeriClean free solo and Swept; staff adoption and fabricated photo risk",
+      "evidence": [
+        "https://apps.apple.com/eg/app/vericlean-cleaning-inspection/id6831389990"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 7.6,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-011",
+      "title": "وصل ناقص — محضر اختلاف التوريد بالصور",
+      "score_current": 7.1,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7,
+        "competition_gap": 7,
+        "digital_acquisition": 6,
+        "mvp_simplicity": 7,
+        "retention": 7
+      },
+      "status": "WATCH",
+      "reason": "Record damaged/missing items with supplier, PO reference, photo and shared claim; evidence from generic logistics practice only",
+      "mvp": "Mobile receiving discrepancy PDF with photos and quantities; no WMS",
+      "threat": "Supplier disputes may be infrequent; Google Forms and inventory tools",
+      "evidence": [
+        "https://www.supplychainbrain.com/articles/receiving-discrepancies"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 7.1,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-012",
+      "title": "إحسب أسعار الموردين — فرق قائمة السعر",
+      "score_current": 6.6,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7,
+        "competition_gap": 4,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 6,
+        "retention": 7
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Frequent supplier changes plausible; free Proceny already compares PDF and spreadsheets",
+      "mvp": "Compare dated CSV/XLSX with margin warning; manually managed catalog",
+      "threat": "Proceny free list diff with packing units/CSV/PDF; OCR formats cost",
+      "evidence": [
+        "https://proceny.com/tools/price-list-comparison"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.6,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-013",
+      "title": "اقفل عرضك — عرض السعر ومتابعة القبول",
+      "score_current": 6.9,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7,
+        "competition_gap": 4.5,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 8,
+        "retention": 7
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "High-value accepted quotes, but crowded with dedicated local and regional platforms",
+      "mvp": "WhatsApp share PDF and one-click acknowledgement; versioned quote",
+      "threat": "Naam, Proposora, DraftYes, Inyad; free entry tiers",
+      "evidence": [
+        "https://proposora.com/egypt"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.9,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-014",
+      "title": "تسويات أمازون مصر وتحليل رسومها",
+      "score_current": 6.9,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 9,
+        "willingness": 7,
+        "competition_gap": 4,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 6,
+        "retention": 8
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Official Amazon statements, but Accreza offers free statement check and paid service",
+      "mvp": "Local CSV settlement per order and fees, no seller login",
+      "threat": "Accreza free audit and 750 EGP/month full product; Amazon fee tooling",
+      "evidence": [
+        "https://accreza.com/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.9,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-015",
+      "title": "تسويات شركات الشحن COD",
+      "score_current": 6.9,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 9,
+        "willingness": 8,
+        "competition_gap": 4,
+        "digital_acquisition": 6,
+        "mvp_simplicity": 5,
+        "retention": 8
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Money trapped at couriers may be painful; multiple Egyptian OMS rivals",
+      "mvp": "Match courier CSV to merchant order CSV; exceptions only",
+      "threat": "WeSell and Ordex already integrate carrier settlement and profit",
+      "evidence": [
+        "https://ordexx.com/en/modules/cod-settlement"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.9,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-016",
+      "title": "صافي ربح أوردرات الدفع عند الاستلام",
+      "score_current": 6.5,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 7,
+        "competition_gap": 3,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 6,
+        "retention": 8
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Revenue impact measurable but competitor tools already cover margin",
+      "mvp": "Order profit cost sheet, refunds, shipping, advertising",
+      "threat": "Safi and free HalaOrders profit calculator",
+      "evidence": [
+        "https://mysafi.app/ar"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.5,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-017",
+      "title": "مواعيد العيادات وتقليل عدم الحضور",
+      "score_current": 6.5,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 8,
+        "willingness": 8,
+        "competition_gap": 2,
+        "digital_acquisition": 7,
+        "mvp_simplicity": 6,
+        "retention": 8
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "No-shows real but crowded with high-feature clinic software",
+      "mvp": "Schedule/reminders only; high compliance burden",
+      "threat": "Tabbaba, Reayaty, Synora, many others",
+      "evidence": [
+        "https://tabbaba.com/en/pricing/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.5,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-018",
+      "title": "متابعة الإيجارات للملاك الصغار",
+      "score_current": 5.9,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 7,
+        "willingness": 5,
+        "competition_gap": 3,
+        "digital_acquisition": 6,
+        "mvp_simplicity": 8,
+        "retention": 8
+      },
+      "status": "LOW_PRIORITY",
+      "reason": "Recurring rent but numerous offline/free iPhone alternatives",
+      "mvp": "Rent cycles and one-tap reminders",
+      "threat": "Aqaraty, RentRoll, RentBook, landlord spreadsheets",
+      "evidence": [
+        "https://apps.apple.com/eg/app/aqaraty-rent-tracker/id6803222797"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 5.9,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-019",
+      "title": "تفعيل ضمان منتجات المتاجر برمز QR",
+      "score_current": 6.9,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "v0.2 analyst weighted screening; all dimensions are assumptions not measured",
+      "dimensions": {
+        "pain": 7.5,
+        "willingness": 6.5,
+        "competition_gap": 6,
+        "digital_acquisition": 6.5,
+        "mvp_simplicity": 7,
+        "retention": 8
+      },
+      "status": "WATCH",
+      "reason": "Potential repeat support workflow but consumer protection and integration risks",
+      "mvp": "Customer self-registration; warranty end date; retailer export; no warranty promise",
+      "threat": "Paper cards, POS, specialized warranty tools; buyers not interviewed",
+      "evidence": [
+        "https://www.consumer-protection.gov.eg/"
+      ],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": 6.9,
+          "change": "new"
+        }
+      ]
+    },
+    {
+      "id": "EG-020",
+      "title": "عرضك — تصميم عروض المنتجات",
+      "score_current": null,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "unscored historical rejection; don't invent a rating",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Previously discussed and rejected; do not relaunch unchanged",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": null,
+          "change": "archived previous rejection"
+        }
+      ]
+    },
+    {
+      "id": "EG-021",
+      "title": "أكّدها — تأكيد طلبات COD",
+      "score_current": null,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "unscored historical rejection; don't invent a rating",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Previously discussed and rejected; strong existing alternatives",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": null,
+          "change": "archived previous rejection"
+        }
+      ]
+    },
+    {
+      "id": "EG-022",
+      "title": "مين دفع؟ — تحصيل المدرسين",
+      "score_current": null,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "unscored historical rejection; don't invent a rating",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Previously discussed and rejected",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": null,
+          "change": "archived previous rejection"
+        }
+      ]
+    },
+    {
+      "id": "EG-023",
+      "title": "طلبك مضبوط — موافقات تصميم الطباعة",
+      "score_current": null,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "unscored historical rejection; don't invent a rating",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Previously discussed and rejected",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": null,
+          "change": "archived previous rejection"
+        }
+      ]
+    },
+    {
+      "id": "EG-024",
+      "title": "وجبة بكرة — المطابخ المنزلية",
+      "score_current": null,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "unscored historical rejection; don't invent a rating",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Previously discussed and rejected",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": null,
+          "change": "archived previous rejection"
+        }
+      ]
+    },
+    {
+      "id": "EG-025",
+      "title": "تطبيقات ترفيه واختبارات بسيطة",
+      "score_current": null,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "unscored historical rejection; don't invent a rating",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Previously dismissed for weak subscription retention",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": null,
+          "change": "archived previous rejection"
+        }
+      ]
+    },
+    {
+      "id": "EG-026",
+      "title": "تتبع GPS بالأجهزة للمركبات",
+      "score_current": null,
+      "score_previous": null,
+      "previous_as_of": null,
+      "score_basis": "unscored historical rejection; don't invent a rating",
+      "dimensions": null,
+      "status": "ARCHIVED",
+      "reason": "Out of scope hardware/services for simple SaaS",
+      "evidence": [],
+      "date_added": "2026-11-18",
+      "history": [
+        {
+          "version": "0.2",
+          "date": "2026-11-18",
+          "score": null,
+          "change": "archived previous rejection"
+        }
+      ]
+    }
+  ]
+}
