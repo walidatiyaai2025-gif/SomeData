@@ -22,7 +22,7 @@
 
 ### ترتيب وتقييمات لا تمسح الماضي
 - **[Idea-Registry.json — سجل الـ26 فكرة ومراحل تقييمها](Documentation/Egypt-MicroSaaS/Idea-Registry.json)** — source of truth، 6 محاور تقييم، ID ثابت، history، المصادر والمنافسون.
-- **[Idea-Ranking-2026-11-18-v0.2.md — ترتيب جميع الأفكار](Documentation/Egypt-MicroSaaS/Idea-Ranking-2026-11-18-v0.2.md)** — قائمة واحدة شاملة، حتى الأقل من 6، مع فصل المؤرشف بدون درجة.
+- **[Current-Ranking.md — الترتيب الأحدث (رابط ثابت)](Documentation/Egypt-MicroSaaS/Current-Ranking.md)** — [لقطة v0.2 المؤرشفة](Documentation/Egypt-MicroSaaS/Idea-Ranking-2026-11-18-v0.2.md) — قائمة واحدة شاملة، حتى الأقل من 6، مع فصل المؤرشف بدون درجة.
 - **[Study-Change-Log.md — سجل القرارات](Documentation/Egypt-MicroSaaS/Study-Change-Log.md)** — تغير كل جولة ولماذا.
 
 ### البحث والمصادر
