@@ -1,10 +1,14 @@
-# Egypt Micro-SaaS Research — v0.3
-**ابدأ من:** [WalidStudy](../../WalidStudy) · [الترتيب الحي](./Current-Ranking.md) · [سجل الأفكار الآلي](./Idea-Registry.json) · [سجل القرارات](./Study-Change-Log.md).
+# Egypt Micro-SaaS Investment Research v0.4
+ابدأ: [WalidStudy](../../WalidStudy) · [ترتيب كل الـ42 فكرة](./Current-Ranking.md) · [ملف درجات الأفكار](./Idea-Registry.json) · [تاريخ القرارات](./Study-Change-Log.md).
 
-**الجولة الثالثة:** [الفرص الجديدة](./New-Opportunities-Round3-2026-11-18.md) · [المصادر](./Evidence-Round3-2026-11-18.md) · [تجربة 90 يوم كاملة واحتمالات الاقتصاد](./Free-90-Day-Trial-Economics-2026-11-18-v0.3.md) · [ترتيب v0.3 مؤرشف](./Idea-Ranking-2026-11-18-v0.3.md).
+**أهم شرط جديد:** يجب اختبار وظيفة المشروع كاملة بلا ملفات أو حسابات عميل حقيقي. **اختبار المنتج ≠ نجاح الاستثمار**؛ لا يوجد مشروع مثبت 9/10. قائمة تنفيذ مستقلة عن ترتيب درجات الفرصة.
 
-**الجولة الثانية:** [الفرص](./New-Opportunities-Deep-Dive-2026-11-18.md) · [المصادر](./Evidence-Round2-2026-11-18.md) · [التسعير السابق](./Pricing-Unit-Economics-2026-11-18-v0.2.md) · [ترتيب v0.2](./Idea-Ranking-2026-11-18-v0.2.md).
+**الجولة الرابعة:** [بحث حلول قابلة للتحقق المستقل](./Independent-Verification-Research-2026-11-18-v0.4.md) · [المصادر](./Evidence-Round4-2026-11-18.md) · [ترتيب v0.4 المؤرشف](./Idea-Ranking-2026-11-18-v0.4.md).
 
-**الجولة الأولى:** [البحث](./Market-Study-2026-11-18.md) · [المصادر](./Evidence-Log-2026-11-18.md) · [خطة تجارب السوق](./Validation-Plan-2026-11-18.md).
+**الجولة الثالثة:** [الفرص](./New-Opportunities-Round3-2026-11-18.md) · [المصادر](./Evidence-Round3-2026-11-18.md) · [اقتصاديات 90 يوم كاملة مجانية](./Free-90-Day-Trial-Economics-2026-11-18-v0.3.md) · [ترتيب v0.3](./Idea-Ranking-2026-11-18-v0.3.md).
 
-**الحالة: RESEARCH ONLY** — لا توجد درجة 9/10 مثبتة، والتقييمات ليست نسب نجاح أو نتائج دفع/احتفاظ. اعتمد 90 يومًا كاملة كتجربة محتملة، لا سياسة مُطلقة ولا إيراد محقق.
+**الجولة الثانية:** [الفرص](./New-Opportunities-Deep-Dive-2026-11-18.md) · [المصادر](./Evidence-Round2-2026-11-18.md) · [التسعير](./Pricing-Unit-Economics-2026-11-18-v0.2.md) · [ترتيب v0.2](./Idea-Ranking-2026-11-18-v0.2.md).
+
+**الجولة الأولى:** [الدراسة الأصلية](./Market-Study-2026-11-18.md) · [المصادر](./Evidence-Log-2026-11-18.md) · [خطة التحقق](./Validation-Plan-2026-11-18.md).
+
+**الحالة:** بحث مكتبي فحسب؛ اختبار البرمجة والحملات والمبيعات لم يبدأ، ولا يوجد قبول تجاري 9/10.
