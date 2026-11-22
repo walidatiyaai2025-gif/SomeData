@@ -1,0 +1,22 @@
+name: Egypt Monetization Research Integrity
+on:
+  pull_request:
+    paths:
+      - 'Documentation/Egypt-MicroSaaS/**'
+      - '.github/workflows/monetization-study-validation.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'Documentation/Egypt-MicroSaaS/**'
+      - '.github/workflows/monetization-study-validation.yml'
+permissions:
+  contents: read
+jobs:
+  study-validation:
+    name: Study integrity and economics (not market validation)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify prior 48 ideas are unchanged, new registry, and model arithmetic
+        run: python3 Documentation/Egypt-MicroSaaS/tools/validate_monetization_study.py

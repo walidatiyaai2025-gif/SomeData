@@ -1,0 +1,766 @@
+{
+  "schema_version": "0.7-overlay",
+  "study_date": "2026-11-22",
+  "study_scope": "Egypt-first; remote-first; Arab expansion country by country",
+  "historical_registry": {
+    "path": "Idea-Registry.json",
+    "version": "0.6",
+    "count": 48,
+    "market_scored": 41,
+    "archived": 7,
+    "locked_git_blob_sha": "e12cd8d4076fe0cd1be3a494318d69c8ce543b12",
+    "preservation": "Do not mutate legacy scores, history, ordering or existing IDs."
+  },
+  "scoring": {
+    "kind": "Provisional 0–10 model suitability, not market success probabilities",
+    "weights": {
+      "ad": {
+        "organic_acquisition": 0.25,
+        "usage_frequency": 0.25,
+        "ad_inventory_safety": 0.15,
+        "competition_defense": 0.15,
+        "operating_margin": 0.1,
+        "remote_execution": 0.1
+      },
+      "subscription": {
+        "repeated_paid_value": 0.25,
+        "payment_intent": 0.2,
+        "remote_acquisition": 0.2,
+        "competition_defense": 0.15,
+        "unit_economics": 0.1,
+        "independent_testability": 0.1
+      },
+      "hybrid": {
+        "free_activation": 0.2,
+        "premium_upgrade_value": 0.2,
+        "usage_frequency": 0.2,
+        "ad_policy_safety": 0.15,
+        "unit_economics": 0.15,
+        "remote_execution": 0.1
+      }
+    },
+    "notes": "Ranked overlays are analyst judgments, not measured TAM, CPI, CAC, eCPM, LTV or retention. Existing v0.6 scores remain authoritative in legacy register; v0.7 model scores cannot replace them."
+  },
+  "evidence_sources": [
+    {
+      "id": "M01",
+      "url": "https://datareportal.com/reports/digital-2026-egypt"
+    },
+    {
+      "id": "M02",
+      "url": "https://mcit.gov.eg/Upcont/Documents/Publications_692026000_ICT_Indicators_Quarterly_Bulletin_Q2_2026.pdf"
+    },
+    {
+      "id": "M03",
+      "url": "https://support.google.com/admob/answer/15337570?hl=en"
+    },
+    {
+      "id": "M04",
+      "url": "https://support.google.com/admob/answer/6201362"
+    },
+    {
+      "id": "M05",
+      "url": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en"
+    },
+    {
+      "id": "M06",
+      "url": "https://developer.apple.com/app-store/review/guidelines/"
+    },
+    {
+      "id": "M07",
+      "url": "https://support.google.com/adsense/answer/81904?hl=en"
+    },
+    {
+      "id": "M08",
+      "url": "https://tools.pdf24.org/en/all-tools"
+    },
+    {
+      "id": "M09",
+      "url": "https://support.google.com/drive/answer/3145835?co=GENIE.Platform%3DAndroid&hl=en"
+    },
+    {
+      "id": "M10",
+      "url": "https://apps.apple.com/us/app/adobe-scan-pdf-ocr-scanner/id1199564834"
+    },
+    {
+      "id": "M11",
+      "url": "https://vflat.com/"
+    },
+    {
+      "id": "M12",
+      "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsearch"
+    },
+    {
+      "id": "M13",
+      "url": "https://play.google.com/store/apps/details?id=com.tibadev.fawatiry"
+    },
+    {
+      "id": "M14",
+      "url": "https://play.google.com/store/apps/details?id=com.duolingo"
+    },
+    {
+      "id": "M15",
+      "url": "https://support.google.com/googleplay/android-developer/answer/9858738?hl=en"
+    },
+    {
+      "id": "M16",
+      "url": "https://developer.apple.com/app-store/subscriptions/"
+    },
+    {
+      "id": "M17",
+      "url": "https://admob.google.com/home/resources/rewarded-ads-win-for-everyone/"
+    },
+    {
+      "id": "M18",
+      "url": "https://support.google.com/adsense/answer/1346295?hl=en"
+    },
+    {
+      "id": "M19",
+      "url": "https://play.google.com/store/apps/details?hl=ar&id=com.habit.habstick"
+    },
+    {
+      "id": "M20",
+      "url": "https://support.google.com/admob/answer/10200963?hl=en-KW"
+    }
+  ],
+  "new_ideas": [
+    {
+      "id": "EG-049",
+      "title": "School PDF — واجبات وصور إلى PDF منظم",
+      "vertical": "education",
+      "audience": "students and parents; age-separated",
+      "model_scores": {
+        "ad": 5.7,
+        "subscription": 3.9,
+        "hybrid": 6.4
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M05",
+        "M06",
+        "M09",
+        "M10",
+        "M11"
+      ],
+      "critical_counterevidence_or_gate": "Repeat scanning after homework; compare quality/time against Drive/Adobe/vFlat; minors must not receive personalized ads.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-050",
+      "title": "كلمات عربية يومية — Word Puzzle",
+      "vertical": "games",
+      "audience": "adult Arabic puzzle players",
+      "model_scores": {
+        "ad": 6.8,
+        "subscription": 2.7,
+        "hybrid": 5.2
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M12",
+        "M17"
+      ],
+      "critical_counterevidence_or_gate": "Daily loop and ad inventory possible; crowded category and paid acquisition hazard.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-051",
+      "title": "حاسبات البيت المصري — كهرباء ومرافق",
+      "vertical": "web-tools",
+      "audience": "Egyptian adult households",
+      "model_scores": {
+        "ad": 6.1,
+        "subscription": 2.1,
+        "hybrid": 4.3
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M13"
+      ],
+      "critical_counterevidence_or_gate": "Utility calculators have existing free competitors; accuracy by effective tariff date required.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-052",
+      "title": "تحدي معلومات يومي للكبار",
+      "vertical": "education",
+      "audience": "Arabic adults 18+ interested in quizzes",
+      "model_scores": {
+        "ad": 6.3,
+        "subscription": 4.5,
+        "hybrid": 6.3
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M14",
+        "M17"
+      ],
+      "critical_counterevidence_or_gate": "Content QA and repeat use unproven; prohibit copying copyrighted question banks.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-053",
+      "title": "ألغاز منطقية قصيرة بدون إنترنت",
+      "vertical": "games",
+      "audience": "adult casual puzzle players",
+      "model_scores": {
+        "ad": 6.5,
+        "subscription": 2.3,
+        "hybrid": 4.9
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M12",
+        "M17"
+      ],
+      "critical_counterevidence_or_gate": "Strong category competition; completion retention unmeasured.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-054",
+      "title": "صندوق أدوات PDF والصور العربي للويب",
+      "vertical": "web-tools",
+      "audience": "Arabic searchers with document tasks",
+      "model_scores": {
+        "ad": 5.6,
+        "subscription": 3.8,
+        "hybrid": 5.5
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M07",
+        "M08",
+        "M09"
+      ],
+      "critical_counterevidence_or_gate": "Very strong free incumbent; SEO and AdSense approval not guaranteed.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-055",
+      "title": "قوالب قابلة للطباعة بالعربية",
+      "vertical": "content",
+      "audience": "adult families and small businesses",
+      "model_scores": {
+        "ad": 6,
+        "subscription": 2.5,
+        "hybrid": 4.1
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M07",
+        "M18"
+      ],
+      "critical_counterevidence_or_gate": "SEO-driven, cyclical intent; original useful content and copyright are mandatory.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-056",
+      "title": "قسمة مصروف البيت والمشاركة",
+      "vertical": "personal-finance",
+      "audience": "adult roommates and families",
+      "model_scores": {
+        "ad": 4.8,
+        "subscription": 4.7,
+        "hybrid": 5.2
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [],
+      "critical_counterevidence_or_gate": "Privacy and calculation correctness; ad distraction sensitive; recurring behavior uncertain.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-057",
+      "title": "عرض سعر وفاتورة مبسطة للمستقل",
+      "vertical": "business",
+      "audience": "Arabic freelancers and microbusiness",
+      "model_scores": {
+        "ad": 3.8,
+        "subscription": 6.2,
+        "hybrid": 6.1
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [],
+      "critical_counterevidence_or_gate": "Payment willingness and digital acquisition unproven; accounting/tax claims excluded from MVP.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-058",
+      "title": "تدريب مقابلات الوظائف بالعربية والإنجليزية",
+      "vertical": "career",
+      "audience": "adult job applicants",
+      "model_scores": {
+        "ad": 5.3,
+        "subscription": 6.5,
+        "hybrid": 6.6
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [],
+      "critical_counterevidence_or_gate": "Job-seeking episodic; measurable lesson outcome and willingness to pay needed.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-059",
+      "title": "دليل صيانة البيت والسيارة الخفيف",
+      "vertical": "content",
+      "audience": "adult DIY learners",
+      "model_scores": {
+        "ad": 5.9,
+        "subscription": 3.5,
+        "hybrid": 4.4
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [],
+      "critical_counterevidence_or_gate": "Accuracy and high-stakes safety review needed; no unsafe repair instructions.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-060",
+      "title": "إنجليزي عملي خمس دقائق يوميا للكبار",
+      "vertical": "education",
+      "audience": "Arabic-speaking adults 18+",
+      "model_scores": {
+        "ad": 5.8,
+        "subscription": 6,
+        "hybrid": 6.7
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M14"
+      ],
+      "critical_counterevidence_or_gate": "Direct competition with large incumbents; differentiated job-specific lessons required.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-061",
+      "title": "CV عربي — سيرة ذاتية بقوالب",
+      "vertical": "career",
+      "audience": "adult job applicants",
+      "model_scores": {
+        "ad": 4.9,
+        "subscription": 3.4,
+        "hybrid": 5.3
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [],
+      "critical_counterevidence_or_gate": "One-off use and template competition; privacy of resumes.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    },
+    {
+      "id": "EG-062",
+      "title": "مُنظم الجامعة للمذاكرة والتسليم",
+      "vertical": "education",
+      "audience": "university students 18+",
+      "model_scores": {
+        "ad": 5,
+        "subscription": 4.9,
+        "hybrid": 6
+      },
+      "score_kind": "ANALYST_DESK_FIT_NOT_MARKET_RESULT",
+      "evidence_ids": [
+        "M14"
+      ],
+      "critical_counterevidence_or_gate": "Academic calendar seasonal; repeated adoption unverified.",
+      "validation_state": "NOT_TESTED",
+      "revenue": "NOT_MEASURED",
+      "retention": "NOT_MEASURED"
+    }
+  ],
+  "legacy_model_overlays": [
+    {
+      "id": "EG-047",
+      "model_scores": {
+        "ad": 2.2,
+        "subscription": 7.3,
+        "hybrid": 4.2
+      },
+      "v07_overlay_only": true,
+      "reason": "v0.6 leader; different scoring axes"
+    },
+    {
+      "id": "EG-046",
+      "model_scores": {
+        "ad": 2.3,
+        "subscription": 7.1,
+        "hybrid": 3.8
+      },
+      "v07_overlay_only": true,
+      "reason": "technical localization QA; pricing and repeat work unverified"
+    },
+    {
+      "id": "EG-044",
+      "model_scores": {
+        "ad": 3.1,
+        "subscription": 7,
+        "hybrid": 4.1
+      },
+      "v07_overlay_only": true,
+      "reason": "free Arabic audit incumbents narrow pricing power"
+    },
+    {
+      "id": "EG-009",
+      "model_scores": {
+        "ad": 2.4,
+        "subscription": 6.9,
+        "hybrid": 4.5
+      },
+      "v07_overlay_only": true,
+      "reason": "B2B delivery proof; less remote acquisition"
+    },
+    {
+      "id": "EG-040",
+      "model_scores": {
+        "ad": 3.5,
+        "subscription": 6.3,
+        "hybrid": 4.6
+      },
+      "v07_overlay_only": true,
+      "reason": "Excel free alternatives; one-off use"
+    },
+    {
+      "id": "EG-043",
+      "model_scores": {
+        "ad": 2.7,
+        "subscription": 6.2,
+        "hybrid": 4.7
+      },
+      "v07_overlay_only": true,
+      "reason": "field service support burden"
+    },
+    {
+      "id": "EG-042",
+      "model_scores": {
+        "ad": 5.7,
+        "subscription": 2,
+        "hybrid": 4
+      },
+      "v07_overlay_only": true,
+      "reason": "existing free and official calculators"
+    },
+    {
+      "id": "EG-045",
+      "model_scores": {
+        "ad": 5.2,
+        "subscription": 3.2,
+        "hybrid": 4.8
+      },
+      "v07_overlay_only": true,
+      "reason": "free PDF/Excel alternatives and OCR costs"
+    }
+  ],
+  "rankings": {
+    "ad": [
+      {
+        "id": "EG-050",
+        "score": 6.8
+      },
+      {
+        "id": "EG-053",
+        "score": 6.5
+      },
+      {
+        "id": "EG-052",
+        "score": 6.3
+      },
+      {
+        "id": "EG-051",
+        "score": 6.1
+      },
+      {
+        "id": "EG-055",
+        "score": 6
+      },
+      {
+        "id": "EG-059",
+        "score": 5.9
+      },
+      {
+        "id": "EG-060",
+        "score": 5.8
+      },
+      {
+        "id": "EG-042",
+        "score": 5.7
+      },
+      {
+        "id": "EG-049",
+        "score": 5.7
+      },
+      {
+        "id": "EG-054",
+        "score": 5.6
+      },
+      {
+        "id": "EG-058",
+        "score": 5.3
+      },
+      {
+        "id": "EG-045",
+        "score": 5.2
+      },
+      {
+        "id": "EG-062",
+        "score": 5
+      },
+      {
+        "id": "EG-061",
+        "score": 4.9
+      },
+      {
+        "id": "EG-056",
+        "score": 4.8
+      },
+      {
+        "id": "EG-057",
+        "score": 3.8
+      },
+      {
+        "id": "EG-040",
+        "score": 3.5
+      },
+      {
+        "id": "EG-044",
+        "score": 3.1
+      },
+      {
+        "id": "EG-043",
+        "score": 2.7
+      },
+      {
+        "id": "EG-009",
+        "score": 2.4
+      },
+      {
+        "id": "EG-046",
+        "score": 2.3
+      },
+      {
+        "id": "EG-047",
+        "score": 2.2
+      }
+    ],
+    "subscription": [
+      {
+        "id": "EG-047",
+        "score": 7.3
+      },
+      {
+        "id": "EG-046",
+        "score": 7.1
+      },
+      {
+        "id": "EG-044",
+        "score": 7
+      },
+      {
+        "id": "EG-009",
+        "score": 6.9
+      },
+      {
+        "id": "EG-058",
+        "score": 6.5
+      },
+      {
+        "id": "EG-040",
+        "score": 6.3
+      },
+      {
+        "id": "EG-043",
+        "score": 6.2
+      },
+      {
+        "id": "EG-057",
+        "score": 6.2
+      },
+      {
+        "id": "EG-060",
+        "score": 6
+      },
+      {
+        "id": "EG-062",
+        "score": 4.9
+      },
+      {
+        "id": "EG-056",
+        "score": 4.7
+      },
+      {
+        "id": "EG-052",
+        "score": 4.5
+      },
+      {
+        "id": "EG-049",
+        "score": 3.9
+      },
+      {
+        "id": "EG-054",
+        "score": 3.8
+      },
+      {
+        "id": "EG-059",
+        "score": 3.5
+      },
+      {
+        "id": "EG-061",
+        "score": 3.4
+      },
+      {
+        "id": "EG-045",
+        "score": 3.2
+      },
+      {
+        "id": "EG-050",
+        "score": 2.7
+      },
+      {
+        "id": "EG-055",
+        "score": 2.5
+      },
+      {
+        "id": "EG-053",
+        "score": 2.3
+      },
+      {
+        "id": "EG-051",
+        "score": 2.1
+      },
+      {
+        "id": "EG-042",
+        "score": 2
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "EG-060",
+        "score": 6.7
+      },
+      {
+        "id": "EG-058",
+        "score": 6.6
+      },
+      {
+        "id": "EG-049",
+        "score": 6.4
+      },
+      {
+        "id": "EG-052",
+        "score": 6.3
+      },
+      {
+        "id": "EG-057",
+        "score": 6.1
+      },
+      {
+        "id": "EG-062",
+        "score": 6
+      },
+      {
+        "id": "EG-054",
+        "score": 5.5
+      },
+      {
+        "id": "EG-061",
+        "score": 5.3
+      },
+      {
+        "id": "EG-050",
+        "score": 5.2
+      },
+      {
+        "id": "EG-056",
+        "score": 5.2
+      },
+      {
+        "id": "EG-053",
+        "score": 4.9
+      },
+      {
+        "id": "EG-045",
+        "score": 4.8
+      },
+      {
+        "id": "EG-043",
+        "score": 4.7
+      },
+      {
+        "id": "EG-040",
+        "score": 4.6
+      },
+      {
+        "id": "EG-009",
+        "score": 4.5
+      },
+      {
+        "id": "EG-059",
+        "score": 4.4
+      },
+      {
+        "id": "EG-051",
+        "score": 4.3
+      },
+      {
+        "id": "EG-047",
+        "score": 4.2
+      },
+      {
+        "id": "EG-044",
+        "score": 4.1
+      },
+      {
+        "id": "EG-055",
+        "score": 4.1
+      },
+      {
+        "id": "EG-042",
+        "score": 4
+      },
+      {
+        "id": "EG-046",
+        "score": 3.8
+      }
+    ]
+  },
+  "experiment_priority": {
+    "ad": [
+      "EG-050",
+      "EG-052",
+      "EG-055"
+    ],
+    "subscription": [
+      "EG-047",
+      "EG-046"
+    ],
+    "hybrid": [
+      "EG-060",
+      "EG-058",
+      "EG-049"
+    ]
+  },
+  "global_status": "RESEARCH_ONLY_NO_PRODUCTS_TESTED_NO_AD_REVENUE_NO_PAYMENTS",
+  "next_decision": "Run safety and proof-of-function bench before any market spend; then run limited demand/retention/pay intent pilots. None approved for investment."
+}
